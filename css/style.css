@@ -54,6 +54,7 @@ body {
 	right: 0;
 	left: 0;
 	z-index: 20;
+
 }
 .navbar-collapse.in {
     overflow-y: visible;
@@ -171,7 +172,7 @@ body {
 }
 /*-- slider --*/
 .banner .rslides {
-	height:1080px;
+	height:925px;
 } 
 .rslides {
 	position: relative;
@@ -354,71 +355,71 @@ img.img-responsive {
 	padding:0;
 }
 span.longline1 {
-	width:267px;
-	height:2px;
+	width:285px;
+	height:10px;
 	display:inline-block;
 	background-color:#A1B3A4;
 	margin-top: 3%;
 }
 span.shortline1 {
-	width:33px;
-	height:2px;
+	width:15px;
+	height:10px;
 	display:inline-block;
 	background-color:#fff;
 	margin-top: 3%;
 }
 span.longline2 {
 	width:270px;
-	height:2px;
+	height:10px;
 	display:inline-block;
 	background-color:#A1B3A4;
 	margin-top: 3%;
 }
 span.shortline2 {
 	width:30px;
-	height:2px;
+	height:10px;
 	display:inline-block;
 	background-color:#fff;
 	margin-top: 3%;
 }
 span.longline3 {
-	width:285px;
-	height:2px;
+	width:255px;
+	height:10px;
 	display:inline-block;
 	background-color:#A1B3A4;
 	margin-top: 3%;
 }
 span.shortline3 {
-	width:15px;
-	height:2px;
+	width:45px;
+	height:10px;
 	display:inline-block;
 	background-color:#fff;
 	margin-top: 3%;
 }
 span.longline4 {
-	width:276px;
-	height:2px;
+	width:285px;
+	height:10px;
 	display:inline-block;
 	background-color:#A1B3A4;
 	margin-top: 3%;
 }
 span.shortline4 {
-	width:24px;
-	height:2px;
+	width:15px;
+	height:10px;
 	display:inline-block;
 	background-color:#fff;
 	margin-top: 3%;
 }
 span.longline5 {
 	width:288px;
-	height:2px;
+	height:10px;
 	display:inline-block;
 	background-color:#A1B3A4;
 	margin-top: 3%;
 }
 span.shortline5 {
 	width:12px;
-	height:2px;
+	height:10px;
 	display:inline-block;
 	background-color:#fff;
 	margin-top: 3%;
