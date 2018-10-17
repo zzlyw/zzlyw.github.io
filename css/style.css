@@ -245,9 +245,17 @@ body {
 .social-icons span.linkedin {
 	background-position:-80px 0px;
 }
-.social-icons span.googleplus {
+.social-icons span.weibo {
 	background-position:-120px 0px;
 }
+.social-icons span.csdn {
+	background-position:-160px 0px;
+}
+.social-icons span.wechat {
+	background-position:-200px 0px;
+}
+
+
 span.line1 {
 	width:484px;
 	height:1px;
@@ -317,8 +325,14 @@ img.img-responsive {
 .mydetails .social-icons span.linkedin {
 	background-position:-80px 0px;
 }
-.mydetails .social-icons span.googleplus {
+.mydetails .social-icons span.weibo {
 	background-position:-120px 0px;
+}
+.mydetails .social-icons span.csdn {
+	background-position:-160px 0px;
+}
+.mydetails .social-icons span.wechat {
+	background-position:-200px 0px;
 }
 .myskills {
 	padding:2em 0;
