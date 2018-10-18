@@ -236,24 +236,20 @@ body {
 	height:40px;
 	background:url(../images/social-icons.png) no-repeat 0px 0px;
 }
-.social-icons  span.facebook {
+
+.social-icons span.twitter {
 	background-position:0px 0px;
 }
-.social-icons span.twitter {
+.social-icons span.linkedin {
 	background-position:-40px 0px;
 }
-.social-icons span.linkedin {
+.social-icons span.weibo {
 	background-position:-80px 0px;
 }
-.social-icons span.weibo {
+.social-icons span.csdn {
 	background-position:-120px 0px;
 }
-.social-icons span.csdn {
-	background-position:-160px 0px;
-}
-.social-icons span.wechat {
-	background-position:-200px 0px;
-}
+
 
 
 span.line1 {
@@ -316,24 +312,20 @@ img.img-responsive {
 	height:40px;
 	background:url(../images/social-icons.png) no-repeat 0px 0px;
 }
-.mydetails .social-icons  span.facebook {
+
+.mydetails .social-icons span.twitter {
 	background-position:0px 0px;
 }
-.mydetails .social-icons span.twitter {
+.mydetails .social-icons span.linkedin {
 	background-position:-40px 0px;
 }
-.mydetails .social-icons span.linkedin {
+.mydetails .social-icons span.weibo {
 	background-position:-80px 0px;
 }
-.mydetails .social-icons span.weibo {
+.mydetails .social-icons span.csdn {
 	background-position:-120px 0px;
 }
-.mydetails .social-icons span.csdn {
-	background-position:-160px 0px;
-}
-.mydetails .social-icons span.wechat {
-	background-position:-200px 0px;
-}
+
 .myskills {
 	padding:2em 0;
 }
