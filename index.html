@@ -1,744 +1,1258 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Zhenliang Zhang</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<meta name="keywords" content="" />
-<!-- css files -->
-<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
-<link href="css/cobox.css" rel="stylesheet" type="text/css">
-<link href="css/portfolio.css" rel="stylesheet" type="text/css" media="all">
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
-<!-- /css files -->
-<!-- font links -->
-<link href='https://fonts.googleapis.com/css?family=Quicksand:400,700,300' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Cinzel:400,700,900' rel='stylesheet' type='text/css'>
-<!-- /font links -->	
-<!-- js files -->
-<script src="js/modernizr.custom.js"></script>
-<!-- /js files -->
+    <head>
+        <title>Zhenliang Zhang Homepage</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="author" content="owwwlab.com">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+        <meta name="description" content="A theme for faculty profile page" />
+        <meta name="keywords" content="faculty profile, theme,css, html, jquery, transition, transform, 3d, css3" />
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129771137-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+        <link rel="shortcut icon" href="../favicon.ico">
 
-  gtag('config', 'UA-129771137-1');
-</script>
+        <!--CSS styles-->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">  
+        <link rel="stylesheet" href="css/perfect-scrollbar-0.4.5.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link id="theme-style" rel="stylesheet" href="css/styles/default.css">
+
+        
+        <!--/CSS styles-->
+        <!--Javascript files-->
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="js/TweenMax.min.js"></script>
+        <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+        <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+        
+        <script type="text/javascript" src="js/modernizr.custom.63321.js"></script>
+        <script type="text/javascript" src="js/jquery.dropdownit.js"></script>
+
+        <script type="text/javascript" src="js/ScrollToPlugin.min.js"></script>
+
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+
+        <script type="text/javascript" src="js/masonry.min.js"></script>
+
+        <script type="text/javascript" src="js/perfect-scrollbar-0.4.5.with-mousewheel.min.js"></script>
+        <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
 
 
-</head>
+        <script type="text/javascript" src="js/magnific-popup.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
 
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
- <div class="navbar-wrapper">
-      <div class="container">
+        <!--/Javascript files-->
 
-        <nav class="navbar navbar-inverse navbar-static-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="index.html">My Profile</a>
+    </head>
+    <body>
+
+        <div id="wrapper">
+            <a href="#sidebar" class="mobilemenu"><i class="fa fa-reorder"></i></a>
+
+            <div id="sidebar">
+                <div id="sidebar-wrapper">
+                    <div id="sidebar-inner">
+                        <!-- Profile/logo section-->
+                        <div id="profile" class="clearfix">
+                            <div class="portrate hidden-xs"></div>
+                            <div class="title">
+                                <h2>Zhenliang Zhang</h2>
+                                <h3>Beijing Institute of Technology</h3>
+                            </div>   
+                        </div>
+                        <!-- /Profile/logo section-->
+
+                        <!-- Main navigation-->
+                        <div id="main-nav">
+                            <ul id="navigation">
+                                <li>
+                                  <a href="#biography">
+                                    <i class="fa fa-user"></i>
+                                    <div class="text">About Me</div>
+                                  </a>
+                                </li>  
+                                
+                                <li>
+                                  <a href="#research">
+                                    <i class="fa fa-book"></i>
+                                    <div class="text">Research</div>
+                                  </a>
+                                </li> 
+                                
+                                <li>
+                                  <a href="#publications">
+                                    <i class="fa fa-edit"></i>
+                                    <div class="text">Publications</div>
+                                  </a>
+                                </li> 
+
+                                <li>
+                                  <a href="#projects">
+                                    <i class="fa fa-clock-o"></i>
+                                    <div class="text">Projects</div>
+                                  </a>
+                                </li>
+
+                                <li>
+                                  <a href="#gallery">
+                                    <i class="fa fa-picture-o"></i>
+                                    <div class="text">Gallery</div>
+                                  </a>
+                                </li>
+
+                                <li>
+                                  <a href="#contact">
+                                      <i class="fa fa-calendar"></i>
+                                      <div class="text">Contact Me</div>
+                                  </a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                        <!-- Sidebar footer -->
+                        <!-- /Main navigation-->
+                        <div id="sidebar-footer">
+                            <div class="social-icons">
+                                <ul>
+                                    <li><a href="mailto:zzlyw10@gmail.com"><i class="fa fa-envelope"></i></a></li>
+                                    <li><a href="https://github.com/zzlyw" target="_blank"><i class="fa fa-github"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/zhenliang-zhang-635b75110/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+
+        
+                            <div id="copyright">© Zhenliang Zhang 2018</div>
+                    
+                        </div>
+                        <!-- /Sidebar footer -->
+                    </div>
+
+                </div>
             </div>
-            <div id="navbar" class="navbar-collapse collapse navbar-right">
-              <ul class="nav navbar-nav link-effect">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#project">Project</a></li>
-                <li><a href="#publication">Publication</a></li>
-				<li><a href="#gallery">Gallery</a></li>
-				<li><a href="#contact">Contact</a></li>
-              </ul>
+
+            <div id="main">
+            
+                <div id="biography" class="page home" data-pos="home">
+                    <div class="pageheader">
+                        <div class="headercontent">
+                            <div class="section-container">
+                                
+                                <div class="row">
+                                    <div class="clearfix visible-sm visible-xs"></div>
+                                    <div class="col-sm-6 col-sm-offset-6 col-md-6 col-md-offset-6">
+                                        <h3 class="title"><font color=#FFFFFF><strong>About Me</strong></font></h3>
+                                        <p><font color=#FFFFFF>I am a Ph.D. student at Beijing Institute of Technology. Now I am working at VCLA as a visiting student. My research interest is focused on Augmented Reality, Virtual Reality, Computer Vision and Machine Learning. I am also interested in the basic theory of AI-Driven Physical-Virtual Mirrored World.</font></p>
+                                    </div>  
+                                </div>
+                            </div>        
+                        </div>
+                    </div>
+
+                    <div class="pagecontents">
+
+                        <div class="section color-0">
+                            <div class="section-container">
+                                <div class="row">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <div class="title text-center">
+                                            <h3><font color=#000000>NEWS!</font></h3>
+                                        </div>
+                                        <ul class="timeline">
+                                                    
+                                            <li class="open">
+                                                <div class="date">2018</div>
+                                                <div class="circle"></div>
+                                                <div class="data">
+                                                    <div class="subject">Coming soon!</div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+
+                        <div class="section fixedbg parallax">
+                            <div class="section-container">
+                                <div class="row">
+                                    <div class="col-md-6 col-md-offset-3">
+                                        <h2 class="heading">Where there is a will, there is a way.</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section color-1">
+                            <div class="section-container">
+                                <div class="row">
+                                    <div class="col-md-5 col-md-offset-1">
+                                        <div class="title text-center">
+                                            <h3>Academic Experiences</h3>
+                                        </div>
+                                        <ul class="ul-dates">
+                                            <li>
+                                                <div class="dates">
+                                                    <span>Present</span>
+                                                    <span>2017.08</span>
+                                                </div>
+                                                <div class="content">
+                                                    <h4>Visiting Graduate Student</h4>
+                                                    <p><em>UCLA</em>, Department of Statistics</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="dates">
+                                                    <span>2016.07</span>
+                                                    <span>2016.01</span>
+                                                </div>
+                                                <div class="content">
+                                                    <h4>Research Intern</h4>
+                                                    <p><em>Microsoft Research Asia</em></p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="dates">
+                                                    <span>2012.09</span>
+                                                    <span>2012.04</span>
+                                                </div>
+                                                <div class="content">
+                                                    <h4>Research Intern</h4>
+                                                    <p><em>North China Research Institute of Electro-Optics</em></p>
+                                                </div>
+                                            </li>
+                                           
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="title text-center">
+                                            <h3>Education & Training</h3>
+                                        </div>
+                                        <ul class="ul-card">
+                                            <li>
+                                                <div class="dy">
+                                                    <span class="degree">Ph.D.</span>
+                                                    <span class="year">2013-Present</span>
+                                                </div>
+                                                <div class="description">
+                                                    <p class="waht">Ph.D. in Optical Engineering</p>
+                                                    <p class="where">Beijing Institute of Technology</p>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div class="dy">
+                                                    <span class="degree">B.A.</span><span class="year">2009-2013</span>
+                                                </div>
+                                                <div class="description">
+                                                    <p class="waht">Bachelor of Electronic Science & Technology</p>
+                                                    <p class="where">Beijing Institute of Technology</p>
+                                                </div>
+                                            </li>
+                                            
+                                        </ul>
+
+                                    </div>    
+                                </div>    
+                            </div> 
+                        </div>
+                        <div class="section color-2">
+                            <div class="section-container" align="center">
+                                <div class="row">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <hr>
+                                        <p><a href="https://www.easycounter.com/"><img src="https://www.easycounter.com/counter.php?yhqk" border="0" alt="Web Counter"></a> <i><font face="Arial" size="2"> unique visitors since October 2018</font></i></p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                                    
+                    </div>
+                </div>
+
+                <div id="research" class="page">
+                    <div class="pageheader">
+                        <div class="headercontent">
+                            <div class="section-container">
+                                <h2 class="title"><strong>Research</strong></h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pagecontents">
+                        <div class="section color-2">
+                            <div class="section-container">
+                                
+                                <div class="title ">
+                                    <h3>Research Summary</h3>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p>My research involves multiple fields. My main researches are focused on virtual reality (VR), mixed reality (MR) and augmented reality (AR). I spent much energy on augmented reality based on head-mounted displays (HMDs). Meanwhile, I also use virtual reality as a platform to study some general tasks in the domain of artificial intelligence (AI).
+                                        I am also interested in computer vision and machine learning. As for computer vision, I am working on the high-level vision, such as visual reasoning. Machine learning is a basic technique for computer vision, which facilitates the study on computer vision. 
+                                        Finally, I also want to integrate AI to the current framework about physical and virtual reality, which will construct a beautiful symmetrical structure of the physical world and the virtual world, leading to some new theories in understanding the nature.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="subtitle text-center">
+                                            <h3>Interests</h3>
+                                        </div>
+                                        <ul class="ul-boxed list-unstyled">
+                                            <li>Virtual Reality, Augmented/Mixed Reality</li>
+                                            <li>Computer Vision & Machine Learning</li>
+                                            <li>Artificial Intelligence in Mirrored World </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section color-1">
+                            <div class="section-container">
+                                <div class="title">
+                                    <h3>Laboratory Personel</h3>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        
+                                        <div id="labp-heads-wrap">
+                                            
+                                            <div id="lab-carousel">
+                                                <div><img alt="image" src="img/lab/chiz.jpg" width="120" height="120" class="img-circle lab-img" /></div>
+                                                <div><img alt="image" src="img/lab/yzhu.jpg" width="120" height="120" class="img-circle lab-img" /></div>
+                                                <div><img alt="image" src="img/lab/fgao.jpg" width="120" height="120" class="img-circle lab-img" /></div>
+                                                <div><img alt="image" src="img/lab/hxliu.jpg" width="120" height="120" class="img-circle lab-img" /></div>
+                                                <div><img alt="image" src="img/lab/medmonds.jpg" width="120" height="120" class="img-circle lab-img" /></div>
+                                                <div><img alt="image" src="img/lab/swqiu.jpg" width="120" height="120" class="img-circle lab-img" /></div>
+                                                <div><img alt="image" src="img/lab/xxie.jpg" width="120" height="120" class="img-circle lab-img" /></div>
+                                                <div><img alt="image" src="img/lab/yxqiu.jpg" width="120" height="120" class="img-circle lab-img" /></div>
+                                                <div><img alt="image" src="img/lab/Zhu_UCLA.jpg" width="120" height="120" class="img-circle lab-img" /></div>
+                                                <div><img alt="image" src="img/lab/zyzhang.jpg" width="120" height="120" class="img-circle lab-img" /></div>
+
+                                            </div>
+                                            <div>
+                                                <a href="#" id="prev"><i class="fa fa-chevron-circle-left"></i></a>
+                                                <a href="#" id="next"><i class="fa fa-chevron-circle-right"></i></a>
+                                            </div>
+                                        </div>
+
+                                        <div id="lab-details">
+                                            <div>
+                                                <h3>Chi Zhang</h3>
+                                                <h4>Master Student</h4>
+                                                <a href="http://wellyzhang.github.io/" target="_blank" class="btn btn-info"> Follow</a>
+                                            </div>
+                                            <div>
+                                                <h3>Yixin Zhu</h3>
+                                                <h4>Postdoc</h4>
+                                                <a href="https://www.yzhu.io/" target="_blank" class="btn btn-info"> Follow</a>
+                                            </div>
+                                            <div>
+                                                <h3>Feng Gao</h3>
+                                                <h4>Ph.D. Student</h4>
+                                                <a href="https://fen9.github.io/" target="_blank" class="btn btn-info"> Follow</a>
+                                            </div>
+                                            <div>
+                                                <h3>Hangxin Liu</h3>
+                                                <h4>Ph.D. Student</h4>
+                                                <a href="https://liuhx111.github.io/" target="_blank" class="btn btn-info"> Follow</a>
+                                            </div>
+                                            <div>
+                                                <h3>Mark Edmonds</h3>
+                                                <h4>Ph.D. Student</h4>
+                                                <a href="http://www.mjedmonds.com/" target="_blank" class="btn btn-info"> Follow</a>
+                                            </div>
+                                            <div>
+                                                <h3>Shuwen Qiu</h3>
+                                                <h4>Master Student</h4>
+                                                <a href="https://janetalready.github.io/" target="_blank" class="btn btn-info"> Follow</a>
+                                            </div>
+                                            <div>
+                                                <h3>Xu Xie</h3>
+                                                <h4>Ph.D. Student</h4>
+                                                <a href="https://xuxie1031.github.io/" target="_blank" class="btn btn-info">Follow</a>
+                                            </div>
+                                                                                        <div>
+                                                <h3>Yuxing Qiu</h3>
+                                                <h4>Ph.D. Student</h4>
+                                                <a href="https://yuxingqiu.github.io/" target="_blank" class="btn btn-info"> Follow</a>
+                                            </div>
+                                                                                        <div>
+                                                <h3>Song-Chun Zhu</h3>
+                                                <h4>Professor</h4>
+                                                <a href="http://www.stat.ucla.edu/~sczhu/" target="_blank" class="btn btn-info"> Follow</a>
+                                            </div>
+                                                                                        <div>
+                                                <h3>Zeyu Zhang</h3>
+                                                <h4>Master Student</h4>
+                                                <a href="https://tooschoolforcool.github.io/" target="_blank" class="btn btn-info"> Follow</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h3>Great lab Personel!</h3>
+                                        <p>There are so many excellent researchers. Their researches may be very helpful for you!</p>
+                                        <p>Just "Click" the left "Follow" button to know more.</p>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+
+                <div id="publications" class="page">
+                    <div class="page-container">
+                        <div class="pageheader">
+                            <div class="headercontent">
+                                <div class="section-container">
+                                    <h2 class="title"><strong>Publications</strong></h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pagecontents">
+                            
+                            <div class="section color-1" id="filters">
+                                <div class="section-container">
+                                    <div class="row">
+                                        
+                                        <div class="col-md-3">
+                                            <h3>Filter by type:</h3>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <select id="cd-dropdown" name="cd-dropdown" class="cd-select">
+                                                <option class="filter" value="all" selected>All types</option>
+                                                <option class="filter" value="jpaper">Jounal Papers</option>
+                                                <option class="filter" value="cpaper">Conference Papers</option>
+                                                <option class="filter" value="bookchapter">Book Chapters</option>
+                                                <option class="filter" value="book">Books</option>
+                                                <!-- <option class="filter" value="report">Reports</option>
+                                                <option class="filter" value="tpaper">Technical Papers</option> -->
+                                            </select>
+                                        </div>
+                                        
+                                        <div class="col-md-3" id="sort">
+                                            <span>Sort by year:</span>
+                                            <div class="btn-group pull-right"> 
+
+                                                <button type="button" data-sort="data-year" data-order="desc" class="sort btn btn-default"><i class="fa fa-sort-numeric-asc"></i></button>
+                                                <button type="button" data-sort="data-year" data-order="asc" class="sort btn btn-default"><i class="fa fa-sort-numeric-desc"></i></button>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="section color-2" id="pub-grid">
+                                <div class="section-container">
+                                    
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="pitems">
+                                                
+                                                <div class="item mix jpaper" data-year="201811">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">   
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/jsid.747" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+               
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/EditableReality.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">Vision‐Tangible Interactive Display Method for Mixed and Virtual Reality: Toward the Human‐Centered Editable Reality</h4>
+                                                                <br>
+                                                                <div class="pubauthor"><strong>Zhenliang Zhang</strong>, Yue Li, Jie Guo, Dongdong Weng, Yue Liu, Yongtian Wang</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-success">Journal Paper</span> Journal of the Society for Information Display, 2018</div>
+                                                            </div>
+                                                        </div>
+ 
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>Building a human‐centered editable world can be fully realized in a virtual environment. Both mixed reality (MR) and virtual reality (VR) are feasible solutions to support the attribute of edition. Based on the current development of MR and VR, we present the vision‐tangible interactive display method and its implementation in both MR and VR. We address the issue of MR and VR together because they are similar regarding the proposed method. The editable mixed and virtual reality system is useful for studies, which exploit it as a platform. In this paper, we construct a virtual reality environment based on the Oculus Rift, and an MR system based on a binocular optical see‐through head‐mounted display. In the MR system about manipulating the Rubik's cube, and the VR system about deforming the virtual objects, the proposed vision‐tangible interactive display method is utilized to provide users with a more immersive environment. Experimental results indicate that the vision‐tangible interactive display method can improve the user experience and can be a promising way to make the virtual environment better.</p>
+                                                    </div>
+                                                </div>
+
+
+
+                                                <div class="item mix cpaper" data-year="201810">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10817/1081705/Depth-aware-interactive-display-method-for-vision-tangible-mixed-reality/10.1117/12.2500432.full?SSO=1" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+                                                                
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/DepthAware.gif" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">Depth-Aware Interactive Display Method for Vision-Tangible Mixed Reality</h4>
+                                                                <br>
+                                                                <div class="pubauthor"><strong>Zhenliang Zhang</strong>, Yue Li, Jie Guo, Dongdong Weng, Yue Liu, Yongtian Wang</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Oral)</span> SPIE/COS Photonics Asia, 2018</div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>Vision-tangible mixed reality (VTMR) is a further development of the traditional mixed reality. It provides an experience of directly manipulating virtual objects at the perceptual level of vision. In this paper, we propose a mixed reality system called “VTouch”. VTouch is composed of an optical see-through head-mounted display (OST-HMD) and a depth camera, supporting a direct 6 degree-of-freedom transformation and a detailed manipulation of 6 sides of the Rubik’s cube. All operations can be performed based on the spatial physical detection between virtual and real objects. We have not only implemented a qualitative analysis of the effectiveness of the system by a functional test, but also performed quantitative experiments to test the effects of depth occlusion. In this way, we put forward basic design principles and give suggestions for future development of similar systems. This kind of mixed reality system is significant for promoting the development of the intelligent environment with state-of-the-art interaction techniques.</p>
+                                                    </div>
+                                                </div>
+
+
+                                                
+    
+
+                                                
+
+                                                <div class="item mix cpaper" data-year="201810">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/HiKeyb.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">HiKeyb: High-Efficiency Mixed Reality System for Text Entry</h4>
+                                                                <br>
+                                                                <div class="pubauthor">Haiyan Jiang, Dongdong Weng, <strong>Zhenliang Zhang</strong>, Yihua Bao, Yufei Jia, Mengman Nie</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Poster)</span> IEEE International Symposium on Mixed and Augmented Reality (ISMAR-Adjunct), 2018</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>Text entry is an imperative issue to be addressed in current entry systems for virtual environments (VEs). The entry method using a physical keyboard is still the most dominant choice for an efficient interaction regarding text entry. In this paper, we propose a typing system with a style of mixed reality, which is called HiKeyb, and it possesses a similar high-efficiency with the single physical keyboard in the real environment. The HiKeyb system consists of a depth camera, a pose tracking module, a head-mounted display (HMD), a QWERTY keyboard and a black table mat. This system can guarantee the entry efficiency and the amenity by not only introducing the force feedback from a movable physical keyboard, but also improving the immersion with the real hand image. In addition, the infrared absorption material helps improve the robustness of the system against different lighting environments. Experiments have proved that users wearing HMDs in Virtual Phrases session can achieve an entry rate of 23.1 words per minute and an error rate of 2.76\\%, and the rate ratio of virtual reality to real world is 78\\% when typing phrases. Besides, we find that the proposed system can provide a relatively close entry efficiency to that using a pure physical keyboard in the real environment.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="item mix cpaper" data-year="201810">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://arxiv.org/pdf/1808.03413.pdf" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+                                                              
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/IAR.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">Inverse Augmented Reality: A Virtual Agent's Perspective</h4>
+                                                                <br>
+                                                                <div class="pubauthor"><strong>Zhenliang Zhang</strong>, Dongdong Weng, Haiyan Jiang, Yue Liu, Yongtian Wang</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Poster)</span> IEEE International Symposium on Mixed and Augmented Reality (ISMAR-Adjunct), 2018</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>We propose a framework called inverse augmented reality (IAR) which describes the scenario that a virtual agent living in the virtual world can observe both virtual objects and real objects. This is different from the traditional augmented reality. The traditional virtual reality, mixed reality and augmented reality are all generated for humans, i.e., they are human-centered frameworks. On the contrary, the proposed inverse augmented reality is a virtual agent-centered framework, which represents and analyzes the reality from a virtual agent's perspective. In this paper, we elaborate the framework of inverse augmented reality to argue the equivalence of the virtual world and the physical world regarding the whole physical structure.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="item mix jpaper" data-year="201808">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/jsid.728" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+                                                              
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/LAC.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">Task‐Driven Latent Active Correction for Physics‐Inspired Input Method in Near‐Field Mixed Reality Applications</h4>
+                                                                <div class="pubauthor"><strong>Zhenliang Zhang</strong>, Yue Li, Jie Guo, Dongdong Weng, Yue Liu, Yongtian Wang</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-success">Journal Paper</span> Journal of the Society for Information Display, 2018</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>Calibration accuracy is one of the most important factors to affect the user experience in mixed reality applications. For a typical mixed reality system built with the optical see‐through head‐mounted display, a key problem is how to guarantee the accuracy of hand–eye coordination by decreasing the instability of the eye and the head‐mounted display in long‐term use. In this paper, we propose a real‐time latent active correction algorithm to decrease hand–eye calibration errors accumulated over time. Experimental results show that we can guarantee an effective calibration result and improve the user experience with the proposed latent active correction algorithm. Based on the proposed system, experiments about virtual buttons are also designed, and the interactive performance regarding different scales of virtual buttons is presented. Finally, a direct physics‐inspired input method is constructed, which shares a similar performance with the gesture‐based input method but provides a lower learning cost due to its naturalness.</p>
+                                                    </div>
+                                                </div>
+
+                                                
+                                                <div class="item mix jpaper" data-year="201806">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://www.spiedigitallibrary.org/journals/Optical-Engineering/volume-57/issue-6/063106/Enhancing-data-acquisition-for-calibration-of-optical-see-through-head/10.1117/1.OE.57.6.063106.full" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+                                                               
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/OE.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">Enhancing Data Acquisition for Calibration of Optical See-Through Head-Mounted Displays</h4>
+                                                                <div class="pubauthor"><strong>Zhenliang Zhang</strong>, Dongdong Weng, Jie Guo, Yue Liu, Yongtian Wang, Hua Huang</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-success">Journal Paper</span> Optical Engineering, 2018</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>Single point active alignment method is a widely used calibration method for optical-see-through head-mounted displays (OST-HMDs) since its appearance. It always requires high-accuracy alignment for data acquisition, and the collected data affect the calibration accuracy to a large extent. However, there are often many kinds of alignment errors occurring in the calibration process. These errors may contain random errors of manual alignment and system errors of the fixed eye-HMD model. To tackle these problems, we first leverage a random sample consensus approach to recurrently decrease the random error of the collected data sequence and use a region-induced data enhancement method to reduce the system error. We design a typical framework to enhance the data acquisition for calibration, sequentially reducing the random error and the system error. Experimental results show that the proposed method can significantly make the calibration more robust due to the elimination of sampling points with large errors. At the same time, the calibration accuracy can be increased by the proposed dynamic eye-HMD model that takes the eye movement into consideration. The improvement about calibration should be significant to promote the applications based on OST-HMDs.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="item mix cpaper" data-year="201804">
+                                                    <div class="pubmain">
+                                                        <div class = "row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://dl.acm.org/citation.cfm?id=3202676" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+                                                                
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/viewpoint.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">Employing Different Viewpoints for Remote Guidance in a Collaborative Augmented Environment</h4>
+                                                                <br>
+                                                                <div class="pubauthor">Hongling Sun, Yue Liu, <strong>Zhenliang Zhang</strong>, Xiaoxu Liu, Yongtian Wang</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Oral)</span> The Sixth International Symposium of Chinese CHI, 2018</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                        This paper details the design, implementation and an initial evaluation of a collaborative platform named OptoBridge, which is aimed at enhancing remote guidance and skill acquisition for spatially distributed users. OptoBridge integrates augmented reality (AR), gesture interaction with video mediated communication and is preliminarily applied to the experimental teaching of the adjustment task with Michelson interferometer. An exploratory study has been conducted to qualitatively and quantitatively evaluate the extent to which different viewpoints affect the student's sense of presence, task performance, learning outcomes and subjective feelings in the remote collaborative augmented environment. 16 students from local universities have participated in the evaluation. The result shows the influence of two different viewpoints and indicates that OptoBridge can effectively support remote guidance and enhance the collaborators' experience.  
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="item mix cpaper" data-year="201803">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://ieeexplore.ieee.org/document/8446129" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+                                                               
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/HandInteraction.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">Evaluation of Hand-Based Interaction for Near-Field Mixed Reality with Optical See-Through Head-Mounted Displays</h4>
+                                                                <br>
+                                                                <div class="pubauthor"><strong>Zhenliang Zhang</strong>, Benyang Cao, Dongdong Weng, Yue Liu, Yongtian Wang, Hua Huang</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Poster)</span> IEEE Conference on Virtual Reality and 3D User Interfaces (VR), 2018</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                         Hand-based interaction is one of the most widely-used interaction modes in the applications based on optical see-through head-mounted displays (OST-HMDs). In this paper, such interaction modes as gesture-based interaction (GBI) and physics-based interaction (PBI) are developed to construct a mixed reality system to evaluate the advantages and disadvantages of different interaction modes for near-field mixed reality. The experimental results show that PBI leads to a better performance of users regarding their work efficiency in the proposed tasks. The statistical analysis of T-test has been adopted to prove that the difference of efficiency between different interaction modes is significant.   
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item mix cpaper" data-year="201803">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://ieeexplore.ieee.org/document/8446291" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+                                                                
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/PhysicsInspired.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">Physics-Inspired Input Method for Near-Field Mixed Reality Applications Using Latent Active Correction</h4>
+                                                                <br>
+                                                                <div class="pubauthor"><strong>Zhenliang Zhang</strong>, Yue Li, Dongdong Weng, Yue Liu, Yongtian Wang</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Poster)</span> IEEE Conference on Virtual Reality and 3D User Interfaces (VR), 2018</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                         Calibration accuracy is one of the most important factors to affect the user experience in mixed reality applications. For a typical mixed reality system built with the optical see-through head-mounted display (OST-HMD), a key problem is how to guarantee the accuracy of hand-eye coordination by decreasing the instability of the eye and the HMD in long-term use. In this paper, we propose a real-time latent active correction (LAC) algorithm to decrease hand-eye calibration errors accumulated over time. Experimental results show that we can successfully use the LAC algorithm to physics-inspired virtual input methods.   
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item mix cpaper" data-year="201803">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://ieeexplore.ieee.org/document/8446260" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/IVR.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">Inverse Virtual Reality: Intelligence-Driven Mutually Mirrored World</h4>
+                                                                <br>
+                                                                <div class="pubauthor"><strong>Zhenliang Zhang</strong>, Benyang Cao, Jie Guo, Dongdong Weng, Yue Liu, Yongtian Wang</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Poster)</span> IEEE Conference on Virtual Reality and 3D User Interfaces (VR), 2018</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                         Since artificial intelligence has been integrated into virtual reality, a new branch of virtual reality, which is called inverse virtual reality (IVR), is created. A typical IVR system contains both the intelligence-driven virtual reality and the physical reality, thus constructing an intelligence-driven mutually mirrored world. We propose the concept of IVR, and describe the details about the definition, structure and implementation of a typical IVR system. The paral-lei living environment is proposed as a typical application of IVR, which reveals that IVR has a significant potential to extend the human living environment.   
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item mix cpaper" data-year="201710">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://ieeexplore.ieee.org/abstract/document/8088495" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/EyeObs.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">[Poster] An Accurate Calibration Method for Optical See-Through Head-Mounted Displays Based on Actual Eye-Observation Model</h4>
+                                                                <div class="pubauthor"><strong>Zhenliang Zhang</strong>, Dongdong Weng, Jie Guo, Yue Liu, Yongtian Wang</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Poster)</span> IEEE International Symposium on Mixed and Augmented Reality (ISMAR-Adjunct), 2017</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                        Single point active alignment method (SPAAM) has become the basic calibration method for optical-see-through head-mounted displays since its appearance. However, SPAAM is based on a simple static pinhole camera model that assumes a static relationship between the user's eye and the HMD. Such theoretic defects lead to a limitation in calibration accuracy. We model the eye as a dynamic pinhole camera to account for the displacement of the eye during the calibration process. We use region-induced data enhancement (RIDE) to reduce the system error in the acquisition process. The experimental results prove that the proposed dynamic model performs better than the traditional static model, and the RIDE method can help users obtain a more accurate calibration result based on the dynamic model, which improves the accuracy significantly compared to the standard SPAAM.    
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item mix cpaper" data-year="201703">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://ieeexplore.ieee.org/abstract/document/7892268" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/RIDE.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">Ride: Region-Induced Data Enhancement Method for Dynamic Calibration of Optical See-Through Head-Mounted Displays</h4>
+                                                                <div class="pubauthor"><strong>Zhenliang Zhang</strong>, Dongdong Weng, Yue Liu, Yongtian Wang, Xinjun Zhao </div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Poster)</span> IEEE Virtual Reality (VR), 2017</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                        The most commonly used single point active alignment method (SPAAM) is based on a static pinhole camera model, in which it is assumed that both the eye and the HMD are fixed. This leads to a limitation for calibration precision. In this work, we propose a dynamic pinhole camera model according to the fact that the human eye would experience an obvious displacement over the whole calibration process. Based on such a camera model, we propose a new calibration data acquisition method called the region-induced data enhancement (RIDE) to revise the calibration data. The experimental results prove that the proposed dynamic model performs better than the traditional static model in actual calibration.   
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item mix cpaper" data-year="201612">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://dl.acm.org/citation.cfm?id=3010975" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/OptoBridge.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">OptoBridge: Assisting Skill Acquisition in the Remote Experimental Collaboration</h4>
+                                                                <div class="pubauthor">Hongling Sun, <strong>Zhenliang Zhang</strong>, Yue Liu, Henry BL Duh </div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Oral)</span> The 28th Australian Conference on Computer-Human Interaction, 2016</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                         In this paper an experimental teaching platform named OptoBridge is presented which supports the sharing of the collaborative space for spatially distributed users to assist skill acquisition. The development of OptoBridge is based on augmented reality (AR) and integrates free-hand gesture interactions with the video mediated communication. The prototype is preliminarily applied in the optics field to promote skill execution in the case of the Michelson interferometer. OptoBridge enables the remote teacher to monitor the experimental scenario as well as the detailed optical phenomena through the transmitted video captured on the local side. Meanwhile the local learner equipped with the optical see-through head-mounted display (OSTHMD) can be indicated by virtual hands and augmented annotations controlled by the teacher's gestures and follow the guidance to get their skills practiced. The implementation of OptoBridge is also presented, aimed at providing a more engaging and efficient approach for remote skill teaching.   
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item mix cpaper" data-year="201609">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://ieeexplore.ieee.org/abstract/document/7938227" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/3DInteraction.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">A Modular Calibration Framework for 3D Interaction System Based on Optical See-Through Head-Mounted Displays in Augmented Reality</h4>
+                                                                <div class="pubauthor"><strong>Zhenliang Zhang</strong>, Dongdong Weng, Yue Liu, Yongtian Wang </div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Oral)</span> International Conference on Virtual Reality and Visualization (ICVRV), 2016</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                         With the rapid development of Virtual and Augmented Reality systems, it becomes more and more important to develop an efficient calibration method for optical see-through head-mounted displays (OST-HMDs). In this paper, a modular calibration framework with two calibration phases is proposed. In the first phase, an eye-involved equivalent camera model is proposed in order to compute the spatial position of the human eye directly, in the second phase, the gesture information is integrated to the system with a depth camera. In addition, a fast correction algorithm is introduced to ensure that the calibration result work for new users without additional complex recalibration procedures. The precision of the proposed modular calibration and optimization method is evaluated, and the result shows that the proposed method can simplify the recalibration procedures for OST-HMDs.   
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item mix jpaper" data-year="201609">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="http://xueshu.baidu.com/s?wd=paperuri%3A%282867456d4e333c7909b290bfca9eed9f%29&filter=sc_long_sign&tn=SE_xueshusource_2kduw22v&sc_vurl=http%3A%2F%2Fen.cnki.com.cn%2FArticle_en%2FCJFDTotal-XTFZ201609004.htm&ie=utf-8&sc_us=16549240575967789239" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/cybersickness.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">Impact of Consistency Between Visually Perceived Movement and Real Movement on Cybersickness</h4>
+                                                                <div class="pubauthor">Li Cai, Dongdong Weng, <strong>Zhenliang Zhang</strong>, Xingyao Yu</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-success">Journal Paper</span> Journal of System Simulation, 2016</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                         The cybersickness is still a huge obstacle for virtual reality(VR) system. Current researches on cybersickness are mostly based on static or dynamic simulators, while studies in the real movement state is rare. An evaluating system which employed a head-mounted display(HMD) with a running vehicle was proposed to study the cybersickness in the real movement state. In this system, users sitting in the vehicle could see virtual scenes which was consistent with the real motion through the HMD. Subjective and objective evaluating experiments were proposed to analyze the different levels of the cybersickness caused by visual-vestibular conflict. The results show that the consistency of real movement and visually perceived movement have a great impact on cybersickness. Cybersickness gets worse when the consistency decreases. Serious cybersickness may lead to extreme situation where the discomfort may not be afforded by users.   
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item mix cpaper" data-year="201504">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9524/952428/3D-optical-see-through-head-mounted-display-based-augmented-reality/10.1117/12.2189641.full?SSO=1" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/icopen.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">3D Optical See-Through Head-Mounted Display Based Augmented Reality System and Its Application</h4>
+                                                                <div class="pubauthor"><strong>Zhenliang Zhang</strong>, Dongdong Weng, Yue Liu, Xiang Li</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Oral, Invited)</span> International Conference on Optical and Photonic Engineering (icOPEN), 2015</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                         The combination of health and entertainment becomes possible due to the development of wearable augmented reality equipment and corresponding application software. In this paper, we implemented a fast calibration extended from SPAAM for an optical see-through head-mounted display (OSTHMD) which was made in our lab. During the calibration, the tracking and recognition techniques upon natural targets were used, and the spatial corresponding points had been set in dispersed and well-distributed positions. We evaluated the precision of this calibration, in which the view angle ranged from 0 degree to 70 degrees. Relying on the results above, we calculated the position of human eyes relative to the world coordinate system and rendered 3D objects in real time with arbitrary complexity on OSTHMD, which accurately matched the real world. Finally, we gave the degree of satisfaction about our device in the combination of entertainment and prevention of cervical vertebra diseases through user feedbacks.   
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+
+
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div id="projects" class="page">
+                    <div class="pageheader">
+                        <div class="headercontent">
+                            <div class="section-container">
+                                <h2 class="title"><strong>Projects</strong></h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pagecontents">
+                        <div class="section color-2">
+                            <div class="section-container">
+                                
+                                <div class="row">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <ul class="ul-withdetails">
+                                            <li>
+                                                <div class="row">
+                                                    <div class="col-sm-4 col-md-3">
+                                                        <div class="image">
+                                                            <img alt="image" src="img/project/pro1.gif" class="img-responsive">
+                                                            <div class="imageoverlay">
+                                                                <i class="fa fa-search"></i>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-8 col-md-9">
+                                                        <div class="meta">
+                                                            <h3>Virtual-Real Fusion</h3>
+                                                            <p>3D calibration for mixed reality based on optical see-through head-mounted displays.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="details">
+                                                    The detailed description is coming soon.
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="row">
+                                                    <div class="col-sm-4 col-md-3">
+                                                        <div class="image">
+                                                            <img alt="image" src="img/project/pro2.gif"  class="img-responsive">
+                                                            <div class="imageoverlay">
+                                                                <i class="fa fa-search"></i>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-8 col-md-9">
+                                                        <div class="meta">
+                                                            <h3>Text Entry using Virtual Keyboard</h3>
+                                                            <p>Input words with a virtual keyboard displayed by an OST-HMD.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="details">
+                                                    The detailed description is coming soon.
+                                                </div>
+
+                                            </li>
+                                            <li>
+                                                <div class="row">
+                                                    <div class="col-sm-4 col-md-3">
+                                                        <div class="image">
+                                                            <img alt="image" src="img/project/pro3.gif"  class="img-responsive">
+                                                            <div class="imageoverlay">
+                                                                <i class="fa fa-search"></i>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-8 col-md-9">
+                                                        <div class="meta">
+                                                            <h3>High-Fidelity Grasp in VR</h3>
+                                                            <p>Use a VR glove to grasp virtual objects in a natural way.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="details">
+                                                    The detailed description is coming soon.
+                                                </div>
+                                            </li>
+
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+
+                <div id="gallery" class="page">
+                    <div class="pageheader">
+                        <div class="headercontent">
+                            <div class="section-container">
+                                <h2 class="title"><strong>Gallery</strong></h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pagecontents">
+                        <div class="section color-3" id="gallery-large">
+                            <div class="section-container">
+                                
+                                <ul id="grid" class="grid">
+                                    <li>
+                                        <div>
+                                            <img alt="image" src="img/gallery/me1.jpg">
+                                            <a href="img/gallery/me1_bg.jpg" class="popup-with-move-anim">
+                                                <div class="over">
+                                                    <div class="comein">
+                                                        <h3>Summer Palace</h3>
+                                                        <p>This is the Summer Palace of China.</p>
+                                                        <div class="comein-bg"></div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img alt="image" src="img/gallery/me2.jpg">
+                                            <a href="img/gallery/me2.jpg" class="popup-with-move-anim">
+                                                <div class="over">
+                                                    <div class="comein">
+                                                        <h3>UCLA Landmark</h3>
+                                                        <p>This is the Royce Hall of UCLA.</p>
+                                                        <div class="comein-bg"></div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img alt="image" src="img/gallery/me3.jpg">
+                                            <a href="img/gallery/me3.jpg" class="popup-with-move-anim">
+                                                <div class="over">
+                                                    <div class="comein">
+                                                        <h3>Qingdao Beach</h3>
+                                                        <div class="comein-bg"></div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img alt="image" src="img/gallery/me6.jpg">
+                                            <a href="img/gallery/me6.jpg" class="popup-with-move-anim">
+                                                <div class="over">
+                                                    <div class="comein">
+                                                        <h3>Universal Studio</h3>
+                                                        <div class="comein-bg"></div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img alt="image" src="img/gallery/me5.jpg">
+                                            <a href="img/gallery/me5_bg.jpg" class="popup-with-move-anim">
+                                                <div class="over">
+                                                    <div class="comein">
+                                                        <h3>UCLA Campus</h3>
+                                                        <div class="comein-bg"></div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div>
+                                            <img alt="image" src="img/gallery/me7.jpg">
+                                            <a href="img/gallery/me7_bg.jpg" class="popup-with-move-anim">
+                                                <div class="over">
+                                                    <div class="comein">
+                                                        <h3>North Lake</h3>
+                                                        <p>This is the North Lake in Liangxiang Campus of Beijing Institute of Technology.</p>
+                                                        <div class="comein-bg"></div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    
+                                    
+                                </ul>
+                                    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="contact" class="page">
+                    <div class="pageheader">
+                        <div class="headercontent">
+                            <div class="section-container">
+                                <h2 class="title"><strong>Contact Me</strong></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagecontents">
+
+                        <div class="section color-1">
+                            <div class="section-container">
+                                
+                                <h2 class="title">Contact & Meet Me</h2>
+                            
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p>I would be happy to talk to you if you need my assistance in your research or whether you need technical support for your company. Though I have limited time, I will try my best to help you.</p>                              
+                                    </div>
+                                    <div class="col-md-4">
+                                        <ul class="list-unstyled">
+
+
+                                            <li>
+                                                <strong><i class="fa fa-envelope"></i>&nbsp;&nbsp;</strong>
+                                                <span>zlz@ucla.edu</span>
+                                            </li>
+                                            <li>
+                                                <strong><i class="fa fa-envelope"></i>&nbsp;&nbsp;</strong>
+                                                <span>zzlyw10@gmail.com</span>
+                                            </li>
+
+                                            <li>
+                                                <strong><i class="fa fa-linkedin-square"></i>&nbsp;&nbsp;</strong>
+                                                <span><a href="https://www.linkedin.com/in/zhenliang-zhang-635b75110/" target="_blank">www.linkedin.com</a></span>
+                                            </li>
+                                        </ul>    
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section fixedbg parallax contact-office">
+                            <div class="section-container">
+                                <div class="row">
+                                    <div class="col-md-7 col-md-offset-1">
+                                        <h2 class="title">At My Office</h2>
+                                        <p>You can find me at my office located at Bolter Hall, UCLA.</p>
+                                        <p>I am at my office every day from 9:00 am to 6:00 pm, but you may consider an e-mail to fix an appointment.</p>
+                                    </div>
+                                    <div class="col-md-3 text-center hidden-xs hidden-sm">
+                                        <i class="fa fa-coffee icon-huge"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div id="overlay"></div>
+
             </div>
-          </div>
-        </nav>
+        </div>
+    </body>
+</html>
 
-      </div>
-    </div>
-<!-- Banner -->
-<div class="banner">
-	<ul class="rslides" id="slider">
-		<li>
-			<div class="banner-info">
-				<h3>Zhenliang Zhang</h3>
-				<span class="line1"></span>
-				<p>One World, One Dream.</p>
-				<span class="line2"></span>
-
-			</div>	
-		</li>
-	</ul>	
-</div>
-<!-- /Banner -->
-<!-- About -->
-<div class="about-me" id="about"> 
-	<h3 class="text-center slideanim">About Me</h3>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4 col-xs-12">
-				<div class="mydetails slideanim text-center">
-					<img class="img-circle img-responsive" src="images/man.jpg" alt="Generic placeholder image" width="200" height="200">
-					<h3>Zhenliang Zhang</h3>
-					<p>Ph.D. Candidate</p>
-					<div class="social-icons">
-						
-						<a href="https://github.com/zzlyw"><span class="twitter"></span></a>
-						<a href="https://www.linkedin.com/in/zhenliang-zhang-635b75110"><span class="linkedin"></span></a>
-						<a href="https://www.weibo.com/u/1837718120"><span class="weibo"></span></a>
-						<a href="https://blog.csdn.net/zzlyw"><span class="csdn"></span></a>
-						
-					</div>
-					<a href="https://scholar.google.com.hk/citations?user=wXOtuW0AAAAJ&hl=zh-CN"><font  face="Arial" size="3">[Google Scholar]</font></a>
-				</div>
-			</div>
-			<div class="col-md-8 col-xs-12">
-				<div class="myskills slideanim">
-					<h3 class="text-center">My Info</h3>
-					<p class="skill-text">I am a Ph.D. student at Beijing Institute of Technology. Now I am working at VCLA as a visiting student. My research interest is focused on Augmented Reality, Virtual Reality, Computer Vision and Machine Learning. I am also interested in the basic theory of AI-Driven Physical-Virtual Mirrored World.</p>
-
-					<h3 class="text-center">Research Interest</h3>
-
-
-					<div class="kpanel" id="research-interest">
-		                
-		                <div class="panel-body">
-		                    <dl>
-		                        <dt>
-		                            Virtual Reality & Mixed Reality
-		                        </dt>
-		                        <dd>
-		                            <li>Calibration and interaction for optical see-through head-mounted displays. </li>
-		                            <li>Human-computer interaction in virtual reality and mixed reality. </li>
-		                            <li>Mutually mirrored physical-virtual world, including theory and implementation. </li>
-
-		                        </dd>
-		                        <br>
-
-		                        <dt>
-		                            Computer Vision & Machine Learning
-		                        </dt>
-		                        <dd>
-		                            <li>Visual reasoning about physics in images.</li>
-		                            <li>Knowledge learning from virtual and physical environment.</li>
-		                        </dd>
-
-
-		                    </dl>
-		                </div>
-		            </div>
-
-
-
-				</div>	
-			</div>
-		</div>	
-		<hr>
-	</div>	
-
-</div>
-
-<!-- project -->
-	<div class="myportfolio" id="project">
-		<h3 class="text-center slideanim">My Project</h3>
-		<p class="text-center slideanim"><b>Just "Click" on the pcitures to know More.</b></p>
-		<section class="vertical" id="grid3d">
-			<div class="grid-wrap">
-				<div class="grid">
-					<figure><img class="slideanim" src="images/1.gif" alt="img01"/></figure>
-					<figure><img class="slideanim" src="images/2.gif" alt="img02"/></figure>
-					<figure><img class="slideanim" src="images/3.gif" alt="img03"/></figure>
-					<figure><img class="slideanim" src="images/4.jpg" alt="img04"/></figure>
-					<figure><img class="slideanim" src="images/5.gif" alt="img05"/></figure>
-					<figure><img class="slideanim" src="images/6.gif" alt="img06"/></figure>
-					<figure><img class="slideanim" src="images/7.jpg" alt="img07"/></figure>
-					<figure><img class="slideanim" src="images/8.gif" alt="img08"/></figure>
-				</div>
-			</div><!-- /grid-wrap -->
-			<div class="content">
-				<div>
-					<div class="content-img"><img src="images/1-1.gif" class="img-responsive" alt="my projects"></div>
-					<h3 class="content-text">Vision-Tangible Physics-Based Interaction for Mixed Reality</h3>
-					<p class="content-text">In this project, we plan to construct a system based on the optical see-through head-mounted display. Our goal is to implement the most natural virtual-real interaction in the mixed reality environment. <br> Currently, we have built the basic platform, and the calibration for hand-eye coordination is also completed. Next, we want to improve the physics-based interaction to deformable objects, such as liquids and cloth.</p>
-				</div>
-				<div>
-					<div class="content-img"><img src="images/2-2.gif" class="img-responsive" alt="my projects"></div>
-					<h3 class="content-text">Editable Reality</h3>
-					<p class="content-text">In this project, we are constructing a VR system to demonstrate the editable reality. In the proposed environment, we can generate Bezier Volume to deform any virtual object in order to make the deformation smooth. This project is focused on the visualization of a form of VR and a kind of direct interaction between the human and the virtual object. Users can make a customized design inside this environment.</p>
-				</div>
-				<div>
-					<div class="content-img"><img src="images/3-3.gif" class="img-responsive" alt="my projects"></div>
-					<h3 class="content-text">VR Glove for Virtual Grasping</h3>
-					<p class="content-text">In this project, we are constructing a VR glove system to grasp virtual objects in the virtual environment. The hardware and the software are developed by us. Some simple applications using this VR glove is done.</p>
-				</div>
-				<div>
-					<div class="content-img"><img src="images/4-4.gif" class="img-responsive" alt="my projects"></div>
-					<h3 class="content-text">Mirrored World Based on Self-Driven Virtual Agent</h3>
-					<p class="content-text">This is only a research plan. We need to create a virtual agent which can learn by itself. Then it has the essential features of a human. <br>The equivalent interaction between the virtual and the physical world is to be studied.</p>
-				</div>
-				<div>
-					<div class="content-img"><img src="images/5-5.gif" class="img-responsive" alt="my projects"></div>
-					<h3 class="content-text">Augmented Reality for Iron Man</h3>
-					<p class="content-text"></p>
-				</div>
-				<div>
-					<div class="content-img"><img src="images/6-6.gif" class="img-responsive" alt="my projects"></div>
-					<h3 class="content-text">3D Display of Virtual Robot in the Known Environment</h3>
-					<p class="content-text"></p>
-				</div>
-				<div>
-					<div class="content-img"><img src="images/7-7.gif" class="img-responsive" alt="my projects"></div>
-					<h3 class="content-text">Study on Hand-Based Interaction Mode in Near-Field Mixed Reality</h3>
-					<p class="content-text"></p>
-				</div>
-
-				<div>
-					<div class="content-img"><img src="images/8-8.gif" class="img-responsive" alt="my projects"></div>
-					<h3 class="content-text">Latent Correction Method for Virtual Keyboard in Optical See-Through Mixed Reality </h3>
-					<p class="content-text"></p>
-				</div>
-
-
-				<span class="loading"></span>
-				<span class="icon close-content"></span>
-
-			</div>
-			<div class="container">
-				<hr>
-			</div>
-
-		</section>
-
-	</div>	
-<!-- /project -->
-
-
-
-<!-- publication -->
-	<div class="myportfolio" id="publication">
-		<h3 class="text-center slideanim">My Publication</h3>
-		<p class="text-center slideanim"></p>
-
-
-
-		<div class="container">
-
-			<table border="1" id="table12" style="border-width: 0px;" width="1280">
-					<tr>
-						<td style="border-style: none; border-width: medium;" valign="top" width="19">&nbsp;</td>
-						<td bgcolor="#FFCC99" style="border-style: none; border-width: medium;" valign="top" width="14">&nbsp;</td>
-						<td style="border-style: none; border-width: medium;" valign="top" width="1108">
-							<p style="margin-left: 10px; line-height: 150%; margin-top: 0px; margin-bottom: 0px;"><i><font face="Arial">
-							Vision‐Tangible Interactive Display Method for Mixed and Virtual Reality: Toward the Human‐Centered Editable Reality
-						    </font></i><br>
-							<font color="#000000" face="Arial" size="2">
-							<b>Zhenliang Zhang</b>, Yue Li, Jie Guo, Dongdong Weng, Yue Liu, Yongtian Wang
-						    </font><br>
-							<font face="Arial" size="2">
-							Journal of the Society for Information Display, 2018
-						    </font><br>
-						    
-							</p>
-						</td>
-					</tr>
-			</table>
-			<br>
-
-	        <table border="1" id="table13" style="border-width: 0px;" width="1280">
-					<tr>
-						<td style="border-style: none; border-width: medium;" valign="top" width="19">&nbsp;</td>
-						<td bgcolor="#FFCC99" style="border-style: none; border-width: medium;" valign="top" width="14">&nbsp;</td>
-						<td style="border-style: none; border-width: medium;" valign="top" width="1108">
-							<p style="margin-left: 10px; line-height: 150%; margin-top: 0px; margin-bottom: 0px;"><i><font face="Arial">
-							Depth-Aware Interactive Display Method for Vision-Tangible Mixed Reality
-						    </font></i><br>
-							<font color="#000000" face="Arial" size="2">
-							<b>Zhenliang Zhang</b>, Yue Li, Jie Guo, Dongdong Weng, Yue Liu, Yongtian Wang
-							</font><br>
-							<font face="Arial" size="2">
-							SPIE/COS Photonics Asia, 2018
-						    </font><br>
-
-							</p>
-						</td>
-					</tr>
-			</table>
-			<br>
-
-	        <table border="1" id="table13" style="border-width: 0px;" width="1280">
-					<tr>
-						<td style="border-style: none; border-width: medium;" valign="top" width="19">&nbsp;</td>
-						<td bgcolor="#FFCC99" style="border-style: none; border-width: medium;" valign="top" width="14">&nbsp;</td>
-						<td style="border-style: none; border-width: medium;" valign="top" width="1108">
-							<p style="margin-left: 10px; line-height: 150%; margin-top: 0px; margin-bottom: 0px;"><i><font face="Arial">
-							HiKeyb: High-Efficiency Mixed Reality System for Text Entry
-						    </font></i><br>
-							<font color="#000000" face="Arial" size="2">
-							Haiyan Jiang, Dongdong Weng, <b>Zhenliang Zhang</b>, Yihua Bao, Yufei Jia, Mengman Nie
-							</font><br>
-							<font face="Arial" size="2">
-							IEEE International Symposium on Mixed and Augmented Reality (ISMAR-Adjunct), 2018
-						    </font><br>
-
-							</p>
-						</td>
-					</tr>
-			</table>
-			<br>
-
-	        <table border="1" id="table13" style="border-width: 0px;" width="1280">
-					<tr>
-						<td style="border-style: none; border-width: medium;" valign="top" width="19">&nbsp;</td>
-						<td bgcolor="#FFCC99" style="border-style: none; border-width: medium;" valign="top" width="14">&nbsp;</td>
-						<td style="border-style: none; border-width: medium;" valign="top" width="1108">
-							<p style="margin-left: 10px; line-height: 150%; margin-top: 0px; margin-bottom: 0px;"><i><font face="Arial">
-							Inverse Augmented Reality: A Virtual Agent's Perspective
-						    </font></i><br>
-							<font color="#000000" face="Arial" size="2">
-							<b>Zhenliang Zhang</b>, Dongdong Weng, Haiyan Jiang, Yue Liu, Yongtian Wang
-						    </font><br>
-							<font face="Arial" size="2">
-							IEEE International Symposium on Mixed and Augmented Reality (ISMAR-Adjunct), 2018
-						    </font><br>
-						    <a href="https://arxiv.org/pdf/1808.03413.pdf" target="_blank"><font color="#808080" face="Arial" size="2">[PDF]</font></a>
-							</p>
-						</td>
-					</tr>
-			</table>
-			<br>
-
-
-	        <table border="1" id="table12" style="border-width: 0px;" width="1280">
-					<tr>
-						<td style="border-style: none; border-width: medium;" valign="top" width="19">&nbsp;</td>
-						<td bgcolor="#FFCC99" style="border-style: none; border-width: medium;" valign="top" width="14">&nbsp;</td>
-						<td style="border-style: none; border-width: medium;" valign="top" width="1108">
-							<p style="margin-left: 10px; line-height: 150%; margin-top: 0px; margin-bottom: 0px;"><i><font face="Arial">
-							Task‐Driven Latent Active Correction for Physics‐Inspired Input Method in Near‐Field Mixed Reality Applications
-						    </font></i><br>
-							<font color="#000000" face="Arial" size="2">
-							<b>Zhenliang Zhang</b>, Yue Li, Jie Guo, Dongdong Weng, Yue Liu, Yongtian Wang
-						    </font><br>
-							<font face="Arial" size="2">
-							Journal of the Society for Information Display, 2018
-						    </font><br>
-						    <a href="./media/SID.mp4"><font color="#808080" face="Arial" size="2">[Video]
-						    </font></a>
-						    <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/jsid.728" target="_blank"><font color="#808080" face="Arial" size="2">[PDF]</font></a>
-							</p>
-						</td>
-					</tr>
-			</table>
-			<br>
-
-
-	        <table border="1" id="table11" style="border-width: 0px;" width="1280">
-					<tr>
-						<td style="border-style: none; border-width: medium;" valign="top" width="19">&nbsp;</td>
-						<td bgcolor="#FFCC99" style="border-style: none; border-width: medium;" valign="top" width="14">&nbsp;</td>
-						<td style="border-style: none; border-width: medium;" valign="top" width="1108">
-							<p style="margin-left: 10px; line-height: 150%; margin-top: 0px; margin-bottom: 0px;"><i><font face="Arial">
-							Enhancing Data Acquisition for Calibration of Optical See-Through Head-Mounted Displays
-						    </font></i><br>
-							<font color="#000000" face="Arial" size="2">
-							<b>Zhenliang Zhang</b>, Dongdong Weng, Jie Guo, Yue Liu, Yongtian Wang, Hua Huang
-						    </font><br>
-							<font face="Arial" size="2">
-							Optical Engineering, 2018
-						    </font><br>
-						    <a href="https://www.spiedigitallibrary.org/journals/Optical-Engineering/volume-57/issue-6/063106/Enhancing-data-acquisition-for-calibration-of-optical-see-through-head/10.1117/1.OE.57.6.063106.full" target="_blank"><font color="#808080" face="Arial" size="2">[PDF]</font></a>
-							</p>
-						</td>
-					</tr>
-			</table>
-			<br>
-
-
-
-	        <table border="1" id="table10" style="border-width: 0px;" width="1280">
-					<tr>
-						<td style="border-style: none; border-width: medium;" valign="top" width="19">&nbsp;</td>
-						<td bgcolor="#FFCC99" style="border-style: none; border-width: medium;" valign="top" width="14">&nbsp;</td>
-						<td style="border-style: none; border-width: medium;" valign="top" width="1108">
-							<p style="margin-left: 10px; line-height: 150%; margin-top: 0px; margin-bottom: 0px;"><i><font face="Arial">
-							Employing Different Viewpoints for Remote Guidance in a Collaborative Augmented Environment
-						    </font></i><br>
-							<font color="#000000" face="Arial" size="2">
-							Hongling Sun, Yue Liu, <b>Zhenliang Zhang</b>, Xiaoxu Liu, Yongtian Wang
-						    </font><br>
-							<font face="Arial" size="2">
-							The Sixth International Symposium of Chinese CHI, 2018
-						    </font><br>
-						    <a href="https://dl.acm.org/citation.cfm?id=3202676" target="_blank"><font color="#808080" face="Arial" size="2">[PDF]</font></a>
-							</p>
-						</td>
-					</tr>
-			</table>
-			<br>
-
-
-		       
-	        <table border="1" id="table9" style="border-width: 0px;" width="1280">
-					<tr>
-						<td style="border-style: none; border-width: medium;" valign="top" width="19">&nbsp;</td>
-						<td bgcolor="#FFCC99" style="border-style: none; border-width: medium;" valign="top" width="14">&nbsp;</td>
-						<td style="border-style: none; border-width: medium;" valign="top" width="1108">
-							<p style="margin-left: 10px; line-height: 150%; margin-top: 0px; margin-bottom: 0px;"><i><font face="Arial">
-							Evaluation of Hand-Based Interaction for Near-Field Mixed Reality with Optical See-Through Head-Mounted Displays
-						    </font></i><br>
-							<font color="#000000" face="Arial" size="2">
-							<b>Zhenliang Zhang</b>, Benyang Cao, Dongdong Weng, Yue Liu, Yongtian Wang, Hua Huang
-						    </font><br>
-							<font face="Arial" size="2">
-							IEEE Conference on Virtual Reality and 3D User Interfaces (VR), 2018
-						    </font><br>
-						    <a href="https://ieeexplore.ieee.org/document/8446129" target="_blank"><font color="#808080" face="Arial" size="2">[PDF]</font></a>
-							</p>
-						</td>
-					</tr>
-			</table>
-			<br>
-
-
-	        <table border="1" id="table8" style="border-width: 0px;" width="1280">
-					<tr>
-						<td style="border-style: none; border-width: medium;" valign="top" width="19">&nbsp;</td>
-						<td bgcolor="#FFCC99" style="border-style: none; border-width: medium;" valign="top" width="14">&nbsp;</td>
-						<td style="border-style: none; border-width: medium;" valign="top" width="1108">
-							<p style="margin-left: 10px; line-height: 150%; margin-top: 0px; margin-bottom: 0px;"><i><font face="Arial">
-							Physics-Inspired Input Method for Near-Field Mixed Reality Applications Using Latent Active Correction
-						    </font></i><br>
-							<font color="#000000" face="Arial" size="2">
-							<b>Zhenliang Zhang</b>, Yue Li, Dongdong Weng, Yue Liu, Yongtian Wang
-						    </font><br>
-							<font face="Arial" size="2">
-							IEEE Conference on Virtual Reality and 3D User Interfaces (VR), 2018
-						    </font><br>
-						    <a href="https://ieeexplore.ieee.org/document/8446291" target="_blank"><font color="#808080" face="Arial" size="2">[PDF]</font></a>
-							</p>
-						</td>
-					</tr>
-			</table>
-			<br>	 
-
-
-	        <table border="1" id="table7" style="border-width: 0px;" width="1280">
-					<tr>
-						<td style="border-style: none; border-width: medium;" valign="top" width="19">&nbsp;</td>
-						<td bgcolor="#FFCC99" style="border-style: none; border-width: medium;" valign="top" width="14">&nbsp;</td>
-						<td style="border-style: none; border-width: medium;" valign="top" width="1108">
-							<p style="margin-left: 10px; line-height: 150%; margin-top: 0px; margin-bottom: 0px;"><i><font face="Arial">
-							Inverse Virtual Reality: Intelligence-Driven Mutually Mirrored World
-						    </font></i><br>
-							<font color="#000000" face="Arial" size="2">
-							<b>Zhenliang Zhang</b>, Benyang Cao, Jie Guo, Dongdong Weng, Yue Liu, Yongtian Wang
-						    </font><br>
-							<font face="Arial" size="2">
-							IEEE Conference on Virtual Reality and 3D User Interfaces (VR), 2018
-						    </font><br>
-						    <a href="https://ieeexplore.ieee.org/document/8446260" target="_blank"><font color="#808080" face="Arial" size="2">[PDF]</font></a>
-							</p>
-						</td>
-					</tr>
-			</table>
-			<br>
-
-
-	        <table border="1" id="table6" style="border-width: 0px;" width="1280">
-					<tr>
-						<td style="border-style: none; border-width: medium;" valign="top" width="19">&nbsp;</td>
-						<td bgcolor="#FFCC99" style="border-style: none; border-width: medium;" valign="top" width="14">&nbsp;</td>
-						<td style="border-style: none; border-width: medium;" valign="top" width="1108">
-							<p style="margin-left: 10px; line-height: 150%; margin-top: 0px; margin-bottom: 0px;"><i><font face="Arial">
-							[Poster] An Accurate Calibration Method for Optical See-Through Head-Mounted Displays Based on Actual Eye-Observation Model
-						    </font></i><br>
-							<font color="#000000" face="Arial" size="2">
-							<b>Zhenliang Zhang</b>, Dongdong Weng, Jie Guo, Yue Liu, Yongtian Wang
-						    </font><br>
-							<font face="Arial" size="2">
-							IEEE International Symposium on Mixed and Augmented Reality (ISMAR-Adjunct), 2017
-						    </font><br>
-						    <a href="https://ieeexplore.ieee.org/abstract/document/8088495" target="_blank"><font color="#808080" face="Arial" size="2">[PDF]</font></a>
-							</p>
-						</td>
-					</tr>
-			</table>
-			<br>
-
-	        <table border="1" id="table5" style="border-width: 0px;" width="1280">
-					<tr>
-						<td style="border-style: none; border-width: medium;" valign="top" width="19">&nbsp;</td>
-						<td bgcolor="#FFCC99" style="border-style: none; border-width: medium;" valign="top" width="14">&nbsp;</td>
-						<td style="border-style: none; border-width: medium;" valign="top" width="1108">
-							<p style="margin-left: 10px; line-height: 150%; margin-top: 0px; margin-bottom: 0px;"><i><font face="Arial">
-							Ride: Region-Induced Data Enhancement Method for Dynamic Calibration of Optical See-Through Head-Mounted Displays
-						    </font></i><br>
-							<font color="#000000" face="Arial" size="2">
-							<b>Zhenliang Zhang</b>, Dongdong Weng, Yue Liu, Yongtian Wang, Xinjun Zhao 
-						    </font><br>
-							<font face="Arial" size="2">
-							IEEE Virtual Reality (VR), 2017
-						    </font><br>
-						    <a href="https://ieeexplore.ieee.org/abstract/document/7892268" target="_blank"><font color="#808080" face="Arial" size="2">[PDF]</font></a>
-							</p>
-						</td>
-					</tr>
-			</table>
-			<br>
-
-
-	        <table border="1" id="table4" style="border-width: 0px;" width="1280">
-					<tr>
-						<td style="border-style: none; border-width: medium;" valign="top" width="19">&nbsp;</td>
-						<td bgcolor="#FFCC99" style="border-style: none; border-width: medium;" valign="top" width="14">&nbsp;</td>
-						<td style="border-style: none; border-width: medium;" valign="top" width="1108">
-							<p style="margin-left: 10px; line-height: 150%; margin-top: 0px; margin-bottom: 0px;"><i><font face="Arial">
-							OptoBridge: Assisting Skill Acquisition in the Remote Experimental Collaboration
-						    </font></i><br>
-							<font color="#000000" face="Arial" size="2">
-							Hongling Sun, <b>Zhenliang Zhang</b>, Yue Liu, Henry BL Duh 
-						    </font><br>
-							<font face="Arial" size="2">
-							The 28th Australian Conference on Computer-Human Interaction, 2016
-						    </font><br>
-						    <a href="https://dl.acm.org/citation.cfm?id=3010975" target="_blank"><font color="#808080" face="Arial" size="2">[PDF]</font></a>
-							</p>
-						</td>
-					</tr>
-			</table>
-			<br>
-
-	        <table border="1" id="table3" style="border-width: 0px;" width="1280">
-					<tr>
-						<td style="border-style: none; border-width: medium;" valign="top" width="19">&nbsp;</td>
-						<td bgcolor="#FFCC99" style="border-style: none; border-width: medium;" valign="top" width="14">&nbsp;</td>
-						<td style="border-style: none; border-width: medium;" valign="top" width="1108">
-							<p style="margin-left: 10px; line-height: 150%; margin-top: 0px; margin-bottom: 0px;"><i><font face="Arial">
-							A Modular Calibration Framework for 3D Interaction System Based on Optical See-Through Head-Mounted Displays in Augmented Reality</font></i><br>
-							<font color="#000000" face="Arial" size="2">
-							<b>Zhenliang Zhang</b>, Dongdong Weng, Yue Liu, Yongtian Wang 
-							</font><br>
-							<font face="Arial" size="2">
-							International Conference on Virtual Reality and Visualization (ICVRV), 2016
-							</font><br>
-							<a href="https://ieeexplore.ieee.org/abstract/document/7938227" target="_blank"><font color="#808080" face="Arial" size="2">[PDF]</font></a>
-							</p>
-						</td>
-					</tr>
-
-			</table>
-			<br>
-
-	        <table border="1" id="table2" style="border-width: 0px;" width="1280">
-					<tr>
-						<td style="border-style: none; border-width: medium;" valign="top" width="19">&nbsp;</td>
-						<td bgcolor="#FFCC99" style="border-style: none; border-width: medium;" valign="top" width="14">&nbsp;</td>
-						<td style="border-style: none; border-width: medium;" valign="top" width="1108">
-							<p style="margin-left: 10px; line-height: 150%; margin-top: 0px; margin-bottom: 0px;"><i><font face="Arial">Impact of Consistency Between Visually Perceived Movement and Real Movement on Cybersickness</font></i><br>
-							<font color="#000000" face="Arial" size="2">Li Cai, Dongdong Weng, <b>Zhenliang Zhang</b>, Xingyao Yu</font><br>
-							<font face="Arial" size="2">Journal of System Simulation, 2016</font><br>
-							<a href="http://xueshu.baidu.com/s?wd=paperuri%3A%282867456d4e333c7909b290bfca9eed9f%29&filter=sc_long_sign&tn=SE_xueshusource_2kduw22v&sc_vurl=http%3A%2F%2Fen.cnki.com.cn%2FArticle_en%2FCJFDTotal-XTFZ201609004.htm&ie=utf-8&sc_us=16549240575967789239" target="_blank"><font color="#808080" face="Arial" size="2">[PDF]</font></a>
-							</p>
-						</td>
-					</tr>
-
-			</table>
-			<br>
-	        <table border="1" id="table1" style="border-width: 0px;" width="1280">
-					<tr>
-						<td style="border-style: none; border-width: medium;" valign="top" width="19">&nbsp;</td>
-						<td bgcolor="#FFCC99" style="border-style: none; border-width: medium;" valign="top" width="14">&nbsp;</td>
-						<td style="border-style: none; border-width: medium;" valign="top" width="1108">
-							<p style="margin-left: 10px; line-height: 150%; margin-top: 0px; margin-bottom: 0px;"><i><font face="Arial">
-							3D Optical See-Through Head-Mounted Display Based Augmented Reality System and Its Application
-							</font></i><br>
-							<font color="#000000" face="Arial" size="2">
-								<b>Zhenliang Zhang</b>, Dongdong Weng, Yue Liu, Xiang Li</font><br>
-							<font face="Arial" size="2">
-								International Conference on Optical and Photonic Engineering (icOPEN), 2015
-							</font><br>
-							<a href="./media/ICOPEN2015.mp4"><font color="#808080" face="Arial" size="2">[Video]</font></a>
-							<a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9524/952428/3D-optical-see-through-head-mounted-display-based-augmented-reality/10.1117/12.2189641.full?SSO=1" target="_blank"><font color="#808080" face="Arial" size="2">[PDF]</font></a>
-						</p>
-						</td>
-					</tr>
-
-			</table>
-
-			
-
-			
-	    <hr>
-    	</div>
-
-
-	</div>	
-<!-- /publication -->
-<!-- Gallery -->
-<div class="mygallery" id="gallery">
-	<h3 class="text-center slideanim">My Gallery</h3>
-	<div class="text-center"> 
-		<a href="images/me0.jpg" title="My Image Gallery"><img src="images/me0-0.jpg" alt="example-0" class="img-responsive slideanim"></a>
-		<a href="images/me1.jpg" title="My Image Gallery"><img src="images/me1-1.jpg" alt="example-1" class="img-responsive slideanim"></a> 
-		<a href="images/me2.jpg" title="My Image Gallery"><img src="images/me2-2.jpg" alt="example-2" class="img-responsive slideanim"></a> 
-		<a href="images/me3.jpg" title="My Image Gallery"><img src="images/me3-3.jpg" alt="example-3" class="img-responsive slideanim"></a> 
-		<a href="images/me4.jpg" title="My Image Gallery"><img src="images/me4-4.jpg" alt="example-4" class="img-responsive slideanim"></a> 
-		<a href="images/me5.jpg" title="My Image Gallery"><img src="images/me5-5.jpg" alt="example-5" class="img-responsive slideanim"></a> 
-		<a href="images/me6.jpg" title="My Image Gallery"><img src="images/me6-6.jpg" alt="example-6" class="img-responsive slideanim"></a> 
-		<a href="images/me7.jpg" title="My Image Gallery"><img src="images/me7-7.jpg" alt="example-7" class="img-responsive slideanim"></a> 
-		<a href="images/me8.jpg" title="My Image Gallery"><img src="images/me8-8.jpg" alt="example-8" class="img-responsive slideanim"></a> 
-		<a href="images/me9.jpg" title="My Image Gallery"><img src="images/me9-9.jpg" alt="example-9" class="img-responsive slideanim"></a> 
-		<a href="images/me10.jpg" title="My Image Gallery"><img src="images/me10-10.jpg" alt="example-10" class="img-responsive slideanim"></a> 
-		<a href="images/me11.jpg" title="My Image Gallery"><img src="images/me11-11.jpg" alt="example-11" class="img-responsive slideanim"></a> 
-		
-	</div>
-	<div class="container">
-		<hr>
-	</div>
-</div>	
-<!-- Gallery -->
-<!-- footer -->	
-<div class="contact-me" id="contact">
-	<h3 class="text-center slideanim">Contact Me</h3>
-	<p class="text-center slideanim">If you are interested in my research, just feel free to contact me. </p>
-	<div class="container">
-	<footer>
-		<div class="row">
-
-			<div class="col-md-6 slideanim">
-				<div class="contact-details">
-					<form action="mailto:zzlyw10@gmail.com" method="post" enctype="text/plain">
-						<div class="row">
-							<div class="col-sm-12 form-group">
-								<input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-							</div>
-							<div class="col-sm-12 form-group">
-								<input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-							</div>
-						</div>
-						<textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-						<div class="row">
-							<div class="col-sm-12 form-group">
-								<button class="btn btn-default btn-lg" type="submit">Send <span class="glyphicon glyphicon-menu-right"></span></button>
-							</div>
-						</div>
-					</form>	
-				</div>	
-			</div>
-			<div class="col-md-6 slideanim">
-				<div class="contact-info">
-					<h4>Contact Info</h4>
-					
-					<div class="footer-info">
-						<div>	
-							<i class="glyphicon glyphicon-globe"></i>
-							<p class="p1">Boelter Hall at UCLA</p> 
-							<p class="p2">Los Angeles, USA</p>
-						</div>
-						<div>
-							<i class="glyphicon glyphicon-phone-alt"></i>
-							<p class="p1">+1 (310) 562-3552</p>
-							<p class="p2">+86 188 8888 8888</p>
-						</div>
-						<div>
-							<i class="glyphicon glyphicon-envelope"></i>
-							<p class="p1"><a href="mailto:zlz@g.ucla.edu">zlz@g.ucla.edu</a></p> 
-							<p class="p2"><a href="mailto:zzlyw10@gmail.com">zzlyw10@gmail.com</a></p>
-						</div>
-					</div>
-
-
-					<h5>Motto</h5>
-					<p>Where there is a will, there is a way.</p>
-
-				</div>
-			</div>
-
-		</div>
-		<br><br>
-		<p><a href="https://www.easycounter.com/"><img src="https://www.easycounter.com/counter.php?yhqk" border="0" alt="Web Counter"></a> <i><font face="Arial" size="2"> unique visitors since October 2018</font></i></p>
-		
-		<hr>
-		<a href="#myPage" title="To Top"><span class="glyphicon glyphicon-chevron-up"></span></a>
-		</footer>
-	</div>
-</div>
-<!-- /footer -->	
-	<!-- js files -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<!-- js files for banner slider -->
-	<script src="js/responsiveslides.min.js"></script>
-	  <script>
-    $(window).load(function() {
-
-     // Slideshow for banner
-      $("#slider").responsiveSlides({
-        maxwidth: 1920,
-        speed: 1000
-      });
-
-
-    });
-  </script>
-	<!-- /js files for banner slider -->
-	<!-- js files for portfolio -->
-		<script src="js/classie.js"></script>
-		<script src="js/helper.js"></script>
-		<script src="js/grid3d.js"></script>
-		<script>
-			new grid3D( document.getElementById( 'grid3d' ) );
-		</script>
-	<!-- /js files for portfolio -->
-	<!-- js files for gallery -->
-<script type="text/javascript" src="js/cobox.js"></script>
-	<!-- /js files for gallery -->	
-	<!-- js for smooth scrolling -->
-	
-		<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-
-  // Store hash
-  var hash = this.hash;
-
-  // Using jQuery's animate() method to add smooth page scroll
-  // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-  $('html, body').animate({
-    scrollTop: $(hash).offset().top
-  }, 900, function(){
-
-    // Add hash (#) to URL when done scrolling (default click behavior)
-    window.location.hash = hash;
-    });
-  });
-})
-
-</script>
-	<!-- /js for smooth scrolling -->
-	<!-- js for sliding -->
-	
-	<script>
-	$(window).scroll(function() {
-  $(".slideanim").each(function(){
-    var pos = $(this).offset().top;
-
-    var winTop = $(window).scrollTop();
-    if (pos < winTop + 600) {
-      $(this).addClass("slide");
-    }
-  });
-});
-</script>
-	<!-- /js for sliding -->
-	<!-- /js files -->
-	
-</body>
-</html>	
