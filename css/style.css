@@ -130,16 +130,16 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 	overflow: auto;
 	position: absolute;
 	top: 0;
-	left: 2000px;
+	left: 0px;
 	bottom: 0;
-	width: 85%;
+	width: 100%;
 	background-color: #f7f7f7;
 	-webkit-overflow-scrolling: touch;
 }
 
 .home {
 	left: 0px;
-	z-index: 1;
+	z-index: 0;
 	width: 100%;
 }
 
@@ -1022,13 +1022,12 @@ ul.timeline li .data .text {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	padding: 190px 0 35px 0;
+	padding: 190px 0 70px 0;
 }
 
-
-#gallery .pageheader .title{
-	  color: #fff;
-	  border: none;
+#gallery .pageheader h2{
+	color: #f7f7f7;
+	text-align:left;
 }
 
 #gallery-large {

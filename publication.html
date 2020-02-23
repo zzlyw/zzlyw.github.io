@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Zhenliang Zhang Homepage</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="author" content="owwwlab.com">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+        <meta name="description" content="A theme for faculty profile page" />
+        <meta name="keywords" content="faculty profile, theme,css, html, jquery, transition, transform, 3d, css3" />
+
+        <link rel="shortcut icon" href="../favicon.ico">
+
+        <!--CSS styles-->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">  
+        <link rel="stylesheet" href="css/perfect-scrollbar-0.4.5.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link id="theme-style" rel="stylesheet" href="css/styles/default.css">
+
+        
+        <!--/CSS styles-->
+        <!--Javascript files-->
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="js/TweenMax.min.js"></script>
+        <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+        <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+        
+        <script type="text/javascript" src="js/modernizr.custom.63321.js"></script>
+        <script type="text/javascript" src="js/jquery.dropdownit.js"></script>
+
+        <script type="text/javascript" src="js/ScrollToPlugin.min.js"></script>
+
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+
+        <script type="text/javascript" src="js/masonry.min.js"></script>
+
+        <script type="text/javascript" src="js/perfect-scrollbar-0.4.5.with-mousewheel.min.js"></script>
+        <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+
+
+        <script type="text/javascript" src="js/magnific-popup.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+
+        <!--/Javascript files-->
+
+    </head>
+    <body>
+
+        <div id="wrapper">
+            <a href="#sidebar" class="mobilemenu"><i class="fa fa-reorder"></i></a>
+
+            <div id="sidebar">
+                <div id="sidebar-wrapper">
+                    <div id="sidebar-inner">
+                        <!-- Profile/logo section-->
+                        <div id="profile" class="clearfix">
+                            <div class="portrate hidden-xs"></div>
+                            <div class="title">
+                                <h2>Zhenliang Zhang</h2>
+                                <h3>Beijing Institute of Technology</h3>
+                            </div>   
+                        </div>
+                        <!-- /Profile/logo section-->
+
+                        <!-- Main navigation-->
+                        <div id="main-nav">
+                            <ul id="navigation">
+                                <li>
+                                  <a href="index.html">
+                                    <i class="fa fa-user"></i>
+                                    <div class="text">About Me</div>
+                                  </a>
+                                </li>  
+                                
+                                <li>
+                                  <a href="research.html">
+                                    <i class="fa fa-book"></i>
+                                    <div class="text">Research</div>
+                                  </a>
+                                </li> 
+                                
+                                <li class="currentmenu">
+                                  <a href="publication.html">
+                                    <i class="fa fa-edit"></i>
+                                    <div class="text">Publications</div>
+                                  </a>
+                                </li> 
+
+                                <li>
+                                  <a href="projects.html">
+                                    <i class="fa fa-clock-o"></i>
+                                    <div class="text">Projects</div>
+                                  </a>
+                                </li>
+
+                                <li>
+                                  <a href="gallery.html">
+                                    <i class="fa fa-picture-o"></i>
+                                    <div class="text">Gallery</div>
+                                  </a>
+                                </li>
+
+                                <li>
+                                  <a href="contact.html">
+                                      <i class="fa fa-calendar"></i>
+                                      <div class="text">Contact Me</div>
+                                  </a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                        <!-- /Main navigation-->
+                        <!-- Sidebar footer -->
+                        <div id="sidebar-footer">
+                            <div class="social-icons">
+                                <ul>
+                                    <li><a href="mailto:zzlyw10@gmail.com"><i class="fa fa-envelope"></i></a></li>
+                                    <li><a href="https://github.com/zzlyw" target="_blank"><i class="fa fa-github"></i></a></li>
+                                    <li><a href="https://twitter.com/ZhenliangZ" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/zhenliang-zhang-635b75110/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+
+        
+                            <div id="copyright">© Zhenliang Zhang 2020</div>
+                    
+                        </div>
+                        <!-- /Sidebar footer -->
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="main">
+            
+                <div id="publications" class="page">
+                    <div class="page-container">
+                        <div class="pageheader">
+                            <div class="headercontent">
+                                <div class="section-container">
+                                    <h2 class="title"><strong>Publications</strong></h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pagecontents">
+                            
+                            <div class="section color-1" id="filters">
+                                <div class="section-container">
+                                    <div class="row">
+                                        
+                                        <div class="col-md-3">
+                                            <h3>Filter by type:</h3>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <select id="cd-dropdown" name="cd-dropdown" class="cd-select">
+                                                <option class="filter" value="all" selected>All types</option>
+                                                <option class="filter" value="jpaper">Jounal Papers</option>
+                                                <option class="filter" value="cpaper">Conference Papers</option>
+                                                <option class="filter" value="bookchapter">Book Chapters</option>
+                                                <option class="filter" value="book">Books</option>
+                                                <!-- <option class="filter" value="report">Reports</option>
+                                                <option class="filter" value="tpaper">Technical Papers</option> -->
+                                            </select>
+                                        </div>
+                                        
+                                        <div class="col-md-3" id="sort">
+                                            <span>Sort by year:</span>
+                                            <div class="btn-group pull-right"> 
+
+                                                <button type="button" data-sort="data-year" data-order="desc" class="sort btn btn-default"><i class="fa fa-sort-numeric-asc"></i></button>
+                                                <button type="button" data-sort="data-year" data-order="asc" class="sort btn btn-default"><i class="fa fa-sort-numeric-desc"></i></button>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="section color-2" id="pub-grid">
+                                <div class="section-container">
+                                    
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="pitems">
+
+
+                                                <div class="item mix cpaper" data-year="201911">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/IROS19.PNG" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">Toward an Efficient Hybrid Interaction Paradigm for Object Manipulation in Optical See-Through Mixed Reality</h4>
+                                                                <br>
+                                                                <div class="pubauthor"><strong>Zhenliang Zhang</strong>,  Dongdong Weng, Jie Guo, Yue Liu, Yongtian Wang</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Oral)</span> IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2019</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                         Human-computer interaction (HCI) plays an important role in the near-field mixed reality, in which the hand-based interaction is one of the most widely-used interaction modes, especially in the applications based on optical see-through head-mounted displays (OST-HMDs). In this paper, such interaction modes as gesture-based interaction (GBI) and physics-based interaction (PBI) are developed to construct a mixed reality system to evaluate the advantages and disadvantages of different interaction modes. The ultimate goal is to find an efficient hybrid paradigm for mixed reality applications based on OST-HMDs to deal with the situations that a single interaction mode cannot handle. The results of the experiment, which compares GBI and PBI, show that PBI leads to a better performance of users regarding their work efficiency in the proposed two tasks. Some statistical tests, including T-test and one-way ANOVA, have also been adopted to prove that the difference regarding the efficiency between different interaction modes is significant. Experiments for combining both interaction modes are put forward in order to seek a good experience for manipulation, which proves that the partially-overlapping style would help to improve work efficiency for manipulation tasks. The experimental results of the proposed two hand-based interaction modes and their hybrid forms can provide some practical suggestions for the development of mixed reality systems based on OST-HMDs.  
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="item mix cpaper" data-year="201910">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/MROffice.PNG" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">Mixed Reality Office System Based on Maslow’s Hierarchy of Needs: Towards the Long-Term Immersion in Virtual Environments</h4>
+                                                                <br>
+                                                                <div class="pubauthor">Jie Guo,  Dongdong Weng, <strong>Zhenliang Zhang</strong>, Haiyan Jiang, Yue Liu, Yongtian Wang, Henry Been-Lirn Duh</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Oral)</span>  IEEE International Symposium on Mixed and Augmented Reality (ISMAR), 2019</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                         In a mixed reality (MR) environment that combines the physical objects with the virtual environments, users' feelings are immersed in the virtual world, while their bodies remain in the physical world. Compared to the purely physical environments, such characteristic has led to some special needs for users' long-term immersion. However, the deficiency needs that we have to face for long-term immersion still need further research. In this paper, we apply the theory of Maslow's Hierarchy of Needs (MHN) to guide the design of MR systems for long-term immersion. Taking the normal biological rhythm of human beings as the basic unit (24 hours), we propose the fundamental needs for long-term immersion in Ves through combining the theory of MHN with the special needs of virtual reality (VR). In order to verify whether those needs can satisfy users' long-term immersion, we design an MR office system for basic operations based on the theory of MHN. A long-term exposure experiment (duration of 8 hours) is designed to evaluate those needs by comparing the results with a physical work environment after a short-term preliminary study. The physiological and psychological effects are tested in both two environments and the deficiency needs for short-term immersion and long-term immersion are also compared. The results showed that the design based on the theory of MHN can support users' long-term immersion, which means that it can be a guideline for long-term use of MR systems.  
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="item mix jpaper" data-year="201907">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/HiFinger.PNG" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">HiFinger: One-Handed Text Entry Technique for Virtual Environments Based on Touches between Fingers</h4>
+                                                                <br>
+                                                                <div class="pubauthor">Haiyan Jiang, Dongdong Weng, <strong>Zhenliang Zhang</strong>, Feng Chen</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-success">Journal Paper</span>  Sensors, 2019</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                         We present a text entry technique called HiFinger, which is an eyes-free, one-handed wearable text entry technique for immersive virtual environments by thumb-to-fingers touch. This technique enables users to input text quickly, accurately, and comfortably with the sense of touch and a two-step input mode. It is especially suitable for mobile scenarios where users need to move (such as walking) in virtual environments. Various input signals can be triggered by moving the thumb towards ultra-thin pressure sensors placed on other fingers. After acquiring the comfort range of the touch between the thumb and other fingers, six placement modes for text entry are designed and tested, resulting in an optimal placement mode that leverages six pressure sensors for the text entry and two for the control function. A three-day study is conducted to evaluate the proposed technique, and experimental results show that novices can achieve an average text entry efficiency of 9.82 words per minute (WPM) in virtual environments based on head-mounted displays after a training period of 25 min.  
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="item mix cpaper" data-year="201805">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/Gym.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">VRGym: A Virtual Testbed for Physical and Interactive AI</h4>
+                                                                <br>
+                                                                <div class="pubauthor">Xu Xie, Hangxin Liu, <strong>Zhenliang Zhang</strong>, Yuxing Qiu, Feng Gao, Siyuan Qi, Yixin Zhu, Song-Chun Zhu</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Oral)</span> ACM Turing Celebration Conference (TURC), 2019</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                         We propose VRGym, a virtual reality testbed for realistic human-robot interaction. Different from existing toolkits and virtual reality environments, the VRGym emphasizes on building and training both physical and interactive agents for robotics, machine learning, and cognitive science. VRGym leverages mechanisms that can generate diverse 3D scenes with high realism through physics-based simulation. We demonstrate that VRGym is able to (i) collect human interactions and fine manipulations, (ii) accommodate various robots with a ROS bridge, (iii) support experiments for human-robot interaction, and (iv) provide toolkits for training the state-of-the-art machine learning algorithms. We hope VRGym can help to advance general-purpose robotics and machine learning agents, as well as assisting human studies in the field of cognitive science. 
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="item mix cpaper" data-year="201803">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/SR.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">Symmetrical Reality: Toward a Unified Framework for Physical and Virtual Reality</h4>
+                                                                <br>
+                                                                <div class="pubauthor"><strong>Zhenliang Zhang</strong>, Cong Wang, Dongdong Weng, Yue Liu, Yongtian Wang</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Poster)</span> IEEE Conference on Virtual Reality and 3D User Interfaces (VR), 2019</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                         In this paper, we review the background of physical reality, virtual reality, and some traditional mixed forms of them. Based on the current knowledge, we propose a new unified concept called symmetrical reality to describe the physical and virtual world in a unified perspective. Under the framework of symmetrical reality, the traditional virtual reality, augmented reality, inverse virtual reality, and inverse augmented reality can be interpreted using a unified presentation. We analyze the characteristics of symmetrical reality from two different observation locations (i.e., from the physical world and from the virtual world), where all other forms of physical and virtual reality can be treated as special cases of symmetrical reality.  
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="item mix cpaper" data-year="201803">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/live.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">Evaluation of Maslow's Hierarchy of Needs on Long-Term Use of HMDs – A Case Study of Office Environment</h4>
+                                                                <br>
+                                                                <div class="pubauthor"> Jie Guo, Dongdong Weng, <strong>Zhenliang Zhang</strong>, Yue Liu, Yongtian Wang</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Poster)</span> IEEE Conference on Virtual Reality and 3D User Interfaces (VR), 2019</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                         Long-term exposure to VR will become more and more important, but what we need for long term immersion to meet users fundamental needs is still under-researched. In this paper, we apply the theory of Maslows Hierarchy of Needs to guide the design of VR for longterm immersion based on the normal biological rhythm of human beings (24 hours). An office environment is designed to verify those needs. The efficiency, the physical and the psychological effects of this VR office system are tested. The results show that the VR office environment is as comfortable as the physical environment at short-term immersion and it can support users basic immersion. It means that the Maslows Hierarchy of Needs can be a guideline for long-term immersion. 
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+
+
+
+
+
+                                                <div class="item mix cpaper" data-year="201810">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/tool.gif" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">High-Fidelity Grasping in Virtual Reality using a Glove-based System</h4>
+                                                                <br>
+                                                                <div class="pubauthor">Hangxin Liu*, <strong>Zhenliang Zhang*</strong>, Xu Xie, Yixin Zhu, Yue Liu, Yongtian Wang, Song-Chun Zhu 
+                                                                <br>
+                                                                * equal contributors
+                                                                </div>
+                                                                 
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper</span> IEEE International Conference on Robotics and Automation (ICRA), 2019</div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>This paper presents a design that jointly provides hand pose sensing, hand localization, and haptic feedback to facilitate real-time stable grasps in Virtual Reality (VR). The design is based on an easy-to-replicate glove-based system that can reliably perform (i) a high-fidelity hand pose sensing in real time through a network of 15 IMUs, and (ii) the hand localization using a Vive Tracker. The supported physicsbased simulation in VR is capable of detecting collisions and contact points for virtual object manipulation, which drives the collision event to trigger the physical vibration motors on the glove to signal the user, providing a better realism inside virtual environments. A caging-based approach using collision geometry is integrated to determine whether a grasp is stable. In the experiment, we showcase successful grasps of virtual objects with large geometry variations. Comparing to the popular LeapMotion sensor, we demonstrate the proposed glove-based design yields a higher success rate in various tasks in VR. We hope such a glove-based system can simplify the data collection of human manipulations with VR.</p>
+                                                    </div>
+                                                </div>
+
+                                                
+                                                <div class="item mix jpaper" data-year="201812">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">   
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/jsid.750" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+               
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/VRTest.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">Subjective and objective evaluation of visual fatigue caused by continuous and discontinuous use of HMDs</h4>
+                                                                <br>
+                                                                <div class="pubauthor">Jie Guo, Dongdong Weng, <strong>Zhenliang Zhang</strong>, Yue Liu, Henry B.L. Duh, Yongtian Wang</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-success">Journal Paper</span> Journal of the Society for Information Display, 2018</div>
+                                                            </div>
+                                                        </div>
+ 
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>During continuous use of displays, a short rest can relax users' eyes and relieve visual fatigue. As one of the most important devices of virtual reality, head‐mounted displays (HMDs) can create an immersive 3D virtual world. When users have a short rest during the using of HMDs, they will experience a transition from virtual world to real world. In order to investigate how this change affects users' eye condition, we designed a 2 × 2 experiment to explore the effects of short rest during continuous using of HMDs and compared the results with those of 2D displays. The Visual Fatigue Scale, critical flicker frequency, visual acuity, pupillary diameter, and accommodation response of 80 participants were measured to assess the subject's performance. The experimental results indicated that a short rest during the using of 2D displays could significantly reduce users' visual fatigue. However, the experimental results of using HMDs showed that short rest during continuous using of HMD induced more severe symptoms of subjectively visual discomfort, but reduced the objectively visual fatigue.</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="item mix jpaper" data-year="201811">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">   
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/jsid.747" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+               
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/EditableReality.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">Vision-Tangible Interactive Display Method for Mixed and Virtual Reality: Toward the Human‐Centered Editable Reality</h4>
+                                                                <br>
+                                                                <div class="pubauthor"><strong>Zhenliang Zhang</strong>, Yue Li, Jie Guo, Dongdong Weng, Yue Liu, Yongtian Wang</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-success">Journal Paper</span> Journal of the Society for Information Display, 2018</div>
+                                                            </div>
+                                                        </div>
+ 
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>Building a human-centered editable world can be fully realized in a virtual environment. Both mixed reality (MR) and virtual reality (VR) are feasible solutions to support the attribute of edition. Based on the current development of MR and VR, we present the vision-tangible interactive display method and its implementation in both MR and VR. We address the issue of MR and VR together because they are similar regarding the proposed method. The editable mixed and virtual reality system is useful for studies, which exploit it as a platform. In this paper, we construct a virtual reality environment based on the Oculus Rift, and an MR system based on a binocular optical see-through head-mounted display. In the MR system about manipulating the Rubik's cube, and the VR system about deforming the virtual objects, the proposed vision-tangible interactive display method is utilized to provide users with a more immersive environment. Experimental results indicate that the vision-tangible interactive display method can improve the user experience and can be a promising way to make the virtual environment better.</p>
+                                                    </div>
+                                                </div>
+
+
+
+                                                <div class="item mix cpaper" data-year="201810">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10817/1081705/Depth-aware-interactive-display-method-for-vision-tangible-mixed-reality/10.1117/12.2500432.full?SSO=1" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+                                                                
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/DepthAware.gif" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">Depth-Aware Interactive Display Method for Vision-Tangible Mixed Reality</h4>
+                                                                <br>
+                                                                <div class="pubauthor"><strong>Zhenliang Zhang</strong>, Yue Li, Jie Guo, Dongdong Weng, Yue Liu, Yongtian Wang</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Oral)</span> SPIE/COS Photonics Asia, 2018</div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>Vision-tangible mixed reality (VTMR) is a further development of the traditional mixed reality. It provides an experience of directly manipulating virtual objects at the perceptual level of vision. In this paper, we propose a mixed reality system called “VTouch”. VTouch is composed of an optical see-through head-mounted display (OST-HMD) and a depth camera, supporting a direct 6 degree-of-freedom transformation and a detailed manipulation of 6 sides of the Rubik’s cube. All operations can be performed based on the spatial physical detection between virtual and real objects. We have not only implemented a qualitative analysis of the effectiveness of the system by a functional test, but also performed quantitative experiments to test the effects of depth occlusion. In this way, we put forward basic design principles and give suggestions for future development of similar systems. This kind of mixed reality system is significant for promoting the development of the intelligent environment with state-of-the-art interaction techniques.</p>
+                                                    </div>
+                                                </div>
+
+
+                                                
+    
+
+                                                
+
+                                                <div class="item mix cpaper" data-year="201810">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/HiKeyb.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">HiKeyb: High-Efficiency Mixed Reality System for Text Entry</h4>
+                                                                <br>
+                                                                <div class="pubauthor">Haiyan Jiang, Dongdong Weng, <strong>Zhenliang Zhang</strong>, Yihua Bao, Yufei Jia, Mengman Nie</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Poster)</span> IEEE International Symposium on Mixed and Augmented Reality (ISMAR-Adjunct), 2018</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>Text entry is an imperative issue to be addressed in current entry systems for virtual environments (VEs). The entry method using a physical keyboard is still the most dominant choice for an efficient interaction regarding text entry. In this paper, we propose a typing system with a style of mixed reality, which is called HiKeyb, and it possesses a similar high-efficiency with the single physical keyboard in the real environment. The HiKeyb system consists of a depth camera, a pose tracking module, a head-mounted display (HMD), a QWERTY keyboard and a black table mat. This system can guarantee the entry efficiency and the amenity by not only introducing the force feedback from a movable physical keyboard, but also improving the immersion with the real hand image. In addition, the infrared absorption material helps improve the robustness of the system against different lighting environments. Experiments have proved that users wearing HMDs in Virtual Phrases session can achieve an entry rate of 23.1 words per minute and an error rate of 2.76\\%, and the rate ratio of virtual reality to real world is 78\\% when typing phrases. Besides, we find that the proposed system can provide a relatively close entry efficiency to that using a pure physical keyboard in the real environment.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="item mix cpaper" data-year="201810">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://arxiv.org/pdf/1808.03413.pdf" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+                                                              
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/IAR.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">Inverse Augmented Reality: A Virtual Agent's Perspective</h4>
+                                                                <br>
+                                                                <div class="pubauthor"><strong>Zhenliang Zhang</strong>, Dongdong Weng, Haiyan Jiang, Yue Liu, Yongtian Wang</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Poster)</span> IEEE International Symposium on Mixed and Augmented Reality (ISMAR-Adjunct), 2018</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>We propose a framework called inverse augmented reality (IAR) which describes the scenario that a virtual agent living in the virtual world can observe both virtual objects and real objects. This is different from the traditional augmented reality. The traditional virtual reality, mixed reality and augmented reality are all generated for humans, i.e., they are human-centered frameworks. On the contrary, the proposed inverse augmented reality is a virtual agent-centered framework, which represents and analyzes the reality from a virtual agent's perspective. In this paper, we elaborate the framework of inverse augmented reality to argue the equivalence of the virtual world and the physical world regarding the whole physical structure.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="item mix jpaper" data-year="201808">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/jsid.728" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+                                                              
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/LAC.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">Task‐Driven Latent Active Correction for Physics‐Inspired Input Method in Near‐Field Mixed Reality Applications</h4>
+                                                                <div class="pubauthor"><strong>Zhenliang Zhang</strong>, Yue Li, Jie Guo, Dongdong Weng, Yue Liu, Yongtian Wang</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-success">Journal Paper</span> Journal of the Society for Information Display, 2018</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>Calibration accuracy is one of the most important factors to affect the user experience in mixed reality applications. For a typical mixed reality system built with the optical see‐through head‐mounted display, a key problem is how to guarantee the accuracy of hand–eye coordination by decreasing the instability of the eye and the head‐mounted display in long‐term use. In this paper, we propose a real‐time latent active correction algorithm to decrease hand–eye calibration errors accumulated over time. Experimental results show that we can guarantee an effective calibration result and improve the user experience with the proposed latent active correction algorithm. Based on the proposed system, experiments about virtual buttons are also designed, and the interactive performance regarding different scales of virtual buttons is presented. Finally, a direct physics‐inspired input method is constructed, which shares a similar performance with the gesture‐based input method but provides a lower learning cost due to its naturalness.</p>
+                                                    </div>
+                                                </div>
+
+                                                
+                                                <div class="item mix jpaper" data-year="201806">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://www.spiedigitallibrary.org/journals/Optical-Engineering/volume-57/issue-6/063106/Enhancing-data-acquisition-for-calibration-of-optical-see-through-head/10.1117/1.OE.57.6.063106.full" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+                                                               
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/OE.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">Enhancing Data Acquisition for Calibration of Optical See-Through Head-Mounted Displays</h4>
+                                                                <div class="pubauthor"><strong>Zhenliang Zhang</strong>, Dongdong Weng, Jie Guo, Yue Liu, Yongtian Wang, Hua Huang</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-success">Journal Paper</span> Optical Engineering, 2018</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>Single point active alignment method is a widely used calibration method for optical-see-through head-mounted displays (OST-HMDs) since its appearance. It always requires high-accuracy alignment for data acquisition, and the collected data affect the calibration accuracy to a large extent. However, there are often many kinds of alignment errors occurring in the calibration process. These errors may contain random errors of manual alignment and system errors of the fixed eye-HMD model. To tackle these problems, we first leverage a random sample consensus approach to recurrently decrease the random error of the collected data sequence and use a region-induced data enhancement method to reduce the system error. We design a typical framework to enhance the data acquisition for calibration, sequentially reducing the random error and the system error. Experimental results show that the proposed method can significantly make the calibration more robust due to the elimination of sampling points with large errors. At the same time, the calibration accuracy can be increased by the proposed dynamic eye-HMD model that takes the eye movement into consideration. The improvement about calibration should be significant to promote the applications based on OST-HMDs.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="item mix cpaper" data-year="201804">
+                                                    <div class="pubmain">
+                                                        <div class = "row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://dl.acm.org/citation.cfm?id=3202676" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+                                                                
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/viewpoint.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">Employing Different Viewpoints for Remote Guidance in a Collaborative Augmented Environment</h4>
+                                                                <br>
+                                                                <div class="pubauthor">Hongling Sun, Yue Liu, <strong>Zhenliang Zhang</strong>, Xiaoxu Liu, Yongtian Wang</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Oral)</span> The Sixth International Symposium of Chinese CHI, 2018</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                        This paper details the design, implementation and an initial evaluation of a collaborative platform named OptoBridge, which is aimed at enhancing remote guidance and skill acquisition for spatially distributed users. OptoBridge integrates augmented reality (AR), gesture interaction with video mediated communication and is preliminarily applied to the experimental teaching of the adjustment task with Michelson interferometer. An exploratory study has been conducted to qualitatively and quantitatively evaluate the extent to which different viewpoints affect the student's sense of presence, task performance, learning outcomes and subjective feelings in the remote collaborative augmented environment. 16 students from local universities have participated in the evaluation. The result shows the influence of two different viewpoints and indicates that OptoBridge can effectively support remote guidance and enhance the collaborators' experience.  
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="item mix cpaper" data-year="201803">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://ieeexplore.ieee.org/document/8446129" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+                                                               
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/HandInteraction.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">Evaluation of Hand-Based Interaction for Near-Field Mixed Reality with Optical See-Through Head-Mounted Displays</h4>
+                                                                <br>
+                                                                <div class="pubauthor"><strong>Zhenliang Zhang</strong>, Benyang Cao, Dongdong Weng, Yue Liu, Yongtian Wang, Hua Huang</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Poster)</span> IEEE Conference on Virtual Reality and 3D User Interfaces (VR), 2018</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                         Hand-based interaction is one of the most widely-used interaction modes in the applications based on optical see-through head-mounted displays (OST-HMDs). In this paper, such interaction modes as gesture-based interaction (GBI) and physics-based interaction (PBI) are developed to construct a mixed reality system to evaluate the advantages and disadvantages of different interaction modes for near-field mixed reality. The experimental results show that PBI leads to a better performance of users regarding their work efficiency in the proposed tasks. The statistical analysis of T-test has been adopted to prove that the difference of efficiency between different interaction modes is significant.   
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item mix cpaper" data-year="201803">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://ieeexplore.ieee.org/document/8446291" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+                                                                
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/PhysicsInspired.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">Physics-Inspired Input Method for Near-Field Mixed Reality Applications Using Latent Active Correction</h4>
+                                                                <br>
+                                                                <div class="pubauthor"><strong>Zhenliang Zhang</strong>, Yue Li, Dongdong Weng, Yue Liu, Yongtian Wang</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Poster)</span> IEEE Conference on Virtual Reality and 3D User Interfaces (VR), 2018</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                         Calibration accuracy is one of the most important factors to affect the user experience in mixed reality applications. For a typical mixed reality system built with the optical see-through head-mounted display (OST-HMD), a key problem is how to guarantee the accuracy of hand-eye coordination by decreasing the instability of the eye and the HMD in long-term use. In this paper, we propose a real-time latent active correction (LAC) algorithm to decrease hand-eye calibration errors accumulated over time. Experimental results show that we can successfully use the LAC algorithm to physics-inspired virtual input methods.   
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item mix cpaper" data-year="201803">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://ieeexplore.ieee.org/document/8446260" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/IVR.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">Inverse Virtual Reality: Intelligence-Driven Mutually Mirrored World</h4>
+                                                                <br>
+                                                                <div class="pubauthor"><strong>Zhenliang Zhang</strong>, Benyang Cao, Jie Guo, Dongdong Weng, Yue Liu, Yongtian Wang</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Poster)</span> IEEE Conference on Virtual Reality and 3D User Interfaces (VR), 2018</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                         Since artificial intelligence has been integrated into virtual reality, a new branch of virtual reality, which is called inverse virtual reality (IVR), is created. A typical IVR system contains both the intelligence-driven virtual reality and the physical reality, thus constructing an intelligence-driven mutually mirrored world. We propose the concept of IVR, and describe the details about the definition, structure and implementation of a typical IVR system. The paral-lei living environment is proposed as a typical application of IVR, which reveals that IVR has a significant potential to extend the human living environment.   
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item mix cpaper" data-year="201710">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://ieeexplore.ieee.org/abstract/document/8088495" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/EyeObs.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">[Poster] An Accurate Calibration Method for Optical See-Through Head-Mounted Displays Based on Actual Eye-Observation Model</h4>
+                                                                <div class="pubauthor"><strong>Zhenliang Zhang</strong>, Dongdong Weng, Jie Guo, Yue Liu, Yongtian Wang</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Poster)</span> IEEE International Symposium on Mixed and Augmented Reality (ISMAR-Adjunct), 2017</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                        Single point active alignment method (SPAAM) has become the basic calibration method for optical-see-through head-mounted displays since its appearance. However, SPAAM is based on a simple static pinhole camera model that assumes a static relationship between the user's eye and the HMD. Such theoretic defects lead to a limitation in calibration accuracy. We model the eye as a dynamic pinhole camera to account for the displacement of the eye during the calibration process. We use region-induced data enhancement (RIDE) to reduce the system error in the acquisition process. The experimental results prove that the proposed dynamic model performs better than the traditional static model, and the RIDE method can help users obtain a more accurate calibration result based on the dynamic model, which improves the accuracy significantly compared to the standard SPAAM.    
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item mix cpaper" data-year="201703">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://ieeexplore.ieee.org/abstract/document/7892268" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/RIDE.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">RIDE: Region-Induced Data Enhancement Method for Dynamic Calibration of Optical See-Through Head-Mounted Displays</h4>
+                                                                <div class="pubauthor"><strong>Zhenliang Zhang</strong>, Dongdong Weng, Yue Liu, Yongtian Wang, Xinjun Zhao </div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Poster)</span> IEEE Virtual Reality (VR), 2017</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                        The most commonly used single point active alignment method (SPAAM) is based on a static pinhole camera model, in which it is assumed that both the eye and the HMD are fixed. This leads to a limitation for calibration precision. In this work, we propose a dynamic pinhole camera model according to the fact that the human eye would experience an obvious displacement over the whole calibration process. Based on such a camera model, we propose a new calibration data acquisition method called the region-induced data enhancement (RIDE) to revise the calibration data. The experimental results prove that the proposed dynamic model performs better than the traditional static model in actual calibration.   
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item mix cpaper" data-year="201612">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://dl.acm.org/citation.cfm?id=3010975" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/OptoBridge.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">OptoBridge: Assisting Skill Acquisition in the Remote Experimental Collaboration</h4>
+                                                                <div class="pubauthor">Hongling Sun, <strong>Zhenliang Zhang</strong>, Yue Liu, Henry BL Duh </div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Oral)</span> The 28th Australian Conference on Computer-Human Interaction, 2016</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                         In this paper an experimental teaching platform named OptoBridge is presented which supports the sharing of the collaborative space for spatially distributed users to assist skill acquisition. The development of OptoBridge is based on augmented reality (AR) and integrates free-hand gesture interactions with the video mediated communication. The prototype is preliminarily applied in the optics field to promote skill execution in the case of the Michelson interferometer. OptoBridge enables the remote teacher to monitor the experimental scenario as well as the detailed optical phenomena through the transmitted video captured on the local side. Meanwhile the local learner equipped with the optical see-through head-mounted display (OSTHMD) can be indicated by virtual hands and augmented annotations controlled by the teacher's gestures and follow the guidance to get their skills practiced. The implementation of OptoBridge is also presented, aimed at providing a more engaging and efficient approach for remote skill teaching.   
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item mix cpaper" data-year="201609">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://ieeexplore.ieee.org/abstract/document/7938227" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/3DInteraction.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">A Modular Calibration Framework for 3D Interaction System Based on Optical See-Through Head-Mounted Displays in Augmented Reality</h4>
+                                                                <div class="pubauthor"><strong>Zhenliang Zhang</strong>, Dongdong Weng, Yue Liu, Yongtian Wang </div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Oral)</span> International Conference on Virtual Reality and Visualization (ICVRV), 2016</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                         With the rapid development of Virtual and Augmented Reality systems, it becomes more and more important to develop an efficient calibration method for optical see-through head-mounted displays (OST-HMDs). In this paper, a modular calibration framework with two calibration phases is proposed. In the first phase, an eye-involved equivalent camera model is proposed in order to compute the spatial position of the human eye directly, in the second phase, the gesture information is integrated to the system with a depth camera. In addition, a fast correction algorithm is introduced to ensure that the calibration result work for new users without additional complex recalibration procedures. The precision of the proposed modular calibration and optimization method is evaluated, and the result shows that the proposed method can simplify the recalibration procedures for OST-HMDs.   
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item mix jpaper" data-year="201609">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="http://xueshu.baidu.com/s?wd=paperuri%3A%282867456d4e333c7909b290bfca9eed9f%29&filter=sc_long_sign&tn=SE_xueshusource_2kduw22v&sc_vurl=http%3A%2F%2Fen.cnki.com.cn%2FArticle_en%2FCJFDTotal-XTFZ201609004.htm&ie=utf-8&sc_us=16549240575967789239" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/cybersickness.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">Impact of Consistency Between Visually Perceived Movement and Real Movement on Cybersickness</h4>
+                                                                <div class="pubauthor">Li Cai, Dongdong Weng, <strong>Zhenliang Zhang</strong>, Xingyao Yu</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-success">Journal Paper</span> Journal of System Simulation, 2016</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                         The cybersickness is still a huge obstacle for virtual reality(VR) system. Current researches on cybersickness are mostly based on static or dynamic simulators, while studies in the real movement state is rare. An evaluating system which employed a head-mounted display(HMD) with a running vehicle was proposed to study the cybersickness in the real movement state. In this system, users sitting in the vehicle could see virtual scenes which was consistent with the real motion through the HMD. Subjective and objective evaluating experiments were proposed to analyze the different levels of the cybersickness caused by visual-vestibular conflict. The results show that the consistency of real movement and visually perceived movement have a great impact on cybersickness. Cybersickness gets worse when the consistency decreases. Serious cybersickness may lead to extreme situation where the discomfort may not be afforded by users.   
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item mix cpaper" data-year="201504">
+                                                    <div class="pubmain">
+                                                        <div class="row">
+                                                            <div class="pubassets">
+                                                                
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="fa fa-expand"></i>
+                                                                </a>
+                                                                <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9524/952428/3D-optical-see-through-head-mounted-display-based-augmented-reality/10.1117/12.2189641.full?SSO=1" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="fa fa-external-link"></i>
+                                                                </a>
+
+                                                                
+                                                            </div>
+                                                            <div class="col-md-3" align="center">
+                                                              <img src="img/paper/icopen.jpg" class="thumbnail img-responsive"  style="max-height:200px;">
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <h4 class="pubtitle">3D Optical See-Through Head-Mounted Display Based Augmented Reality System and Its Application</h4>
+                                                                <div class="pubauthor"><strong>Zhenliang Zhang</strong>, Dongdong Weng, Yue Liu, Xiang Li</div>
+                                                                <br>
+                                                                <div class="pubcite"><span class="label label-warning">Conference Paper (Oral, Invited)</span> International Conference on Optical and Photonic Engineering (icOPEN), 2015</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                         The combination of health and entertainment becomes possible due to the development of wearable augmented reality equipment and corresponding application software. In this paper, we implemented a fast calibration extended from SPAAM for an optical see-through head-mounted display (OSTHMD) which was made in our lab. During the calibration, the tracking and recognition techniques upon natural targets were used, and the spatial corresponding points had been set in dispersed and well-distributed positions. We evaluated the precision of this calibration, in which the view angle ranged from 0 degree to 70 degrees. Relying on the results above, we calculated the position of human eyes relative to the world coordinate system and rendered 3D objects in real time with arbitrary complexity on OSTHMD, which accurately matched the real world. Finally, we gave the degree of satisfaction about our device in the combination of entertainment and prevention of cervical vertebra diseases through user feedbacks.   
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+
+
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </body>
+</html>
+
