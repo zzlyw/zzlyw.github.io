@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yue Li | Zhenliang Zhang | BIGAI</title>
+    <link>https://zzlyw.github.io/author/yue-li/</link>
+      <atom:link href="https://zzlyw.github.io/author/yue-li/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yue Li</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022-2023 Zhenliang Zhang </copyright><lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zzlyw.github.io/images/icon_hu7030cbd7b1bdfcbfb8eaef0c4227eadf_7648_512x512_fill_lanczos_center_3.png</url>
+      <title>Yue Li</title>
+      <link>https://zzlyw.github.io/author/yue-li/</link>
+    </image>
+    
+    <item>
+      <title>[SID 2019] Vision-tangible interactive display method for mixed and virtual reality: Toward the human-centered editable reality</title>
+      <link>https://zzlyw.github.io/publication/journal_sid_editable_reality/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/publication/journal_sid_editable_reality/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to import publication metadata into your reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[PhotonicsAsia 2018] Depth-aware interactive display method for vision-tangible mixed reality</title>
+      <link>https://zzlyw.github.io/publication/conf_photonicsasia19_depth_aware/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/publication/conf_photonicsasia19_depth_aware/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to import publication metadata into your reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[SID 2018] Task-driven latent active correction for physics-inspired input method in near-field mixed reality applications</title>
+      <link>https://zzlyw.github.io/publication/journal_sid_lac/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/publication/journal_sid_lac/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to import publication metadata into your reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[VR 2018] Physics-inspired input method for near-field mixed reality applications using latent active correction</title>
+      <link>https://zzlyw.github.io/publication/conf_vr18_physics_input_method/</link>
+      <pubDate>Tue, 20 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/publication/conf_vr18_physics_input_method/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to import publication metadata into your reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

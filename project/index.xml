@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Zhenliang Zhang | BIGAI</title>
+    <link>https://zzlyw.github.io/project/</link>
+      <atom:link href="https://zzlyw.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022-2023 Zhenliang Zhang </copyright><lastBuildDate>Wed, 27 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zzlyw.github.io/images/icon_hu7030cbd7b1bdfcbfb8eaef0c4227eadf_7648_512x512_fill_lanczos_center_3.png</url>
+      <title>Projects</title>
+      <link>https://zzlyw.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>Symmetrical Reality Project</title>
+      <link>https://zzlyw.github.io/project/sr-project/</link>
+      <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/project/sr-project/</guid>
+      <description>&lt;p&gt;Symmetrical reality is a new area for human-robot interaction across physical and virtual worlds.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robot Learning Project</title>
+      <link>https://zzlyw.github.io/project/robot-learning-project/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/project/robot-learning-project/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Robot Learning&lt;/em&gt; project is focused on training a robot with VR or MR approaches.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mixed Reality Project</title>
+      <link>https://zzlyw.github.io/project/mr-project/</link>
+      <pubDate>Fri, 01 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/project/mr-project/</guid>
+      <description>&lt;p&gt;Mixed Reality project is focused on the wearable MR devices, including algorithms, systems, and applications.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

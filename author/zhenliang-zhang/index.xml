@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zhenliang Zhang | Zhenliang Zhang | BIGAI</title>
+    <link>https://zzlyw.github.io/author/zhenliang-zhang/</link>
+      <atom:link href="https://zzlyw.github.io/author/zhenliang-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zhenliang Zhang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022-2023 Zhenliang Zhang </copyright><lastBuildDate>Tue, 20 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zzlyw.github.io/images/icon_hu7030cbd7b1bdfcbfb8eaef0c4227eadf_7648_512x512_fill_lanczos_center_3.png</url>
+      <title>Zhenliang Zhang</title>
+      <link>https://zzlyw.github.io/author/zhenliang-zhang/</link>
+    </image>
+    
+    <item>
+      <title>[VR 2018] Physics-inspired input method for near-field mixed reality applications using latent active correction</title>
+      <link>https://zzlyw.github.io/publication/conf_vr18_physics_input_method/</link>
+      <pubDate>Tue, 20 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/publication/conf_vr18_physics_input_method/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to import publication metadata into your reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

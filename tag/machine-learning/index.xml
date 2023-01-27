@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning | Zhenliang Zhang | BIGAI</title>
+    <link>https://zzlyw.github.io/tag/machine-learning/</link>
+      <atom:link href="https://zzlyw.github.io/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Machine Learning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022-2023 Zhenliang Zhang </copyright><lastBuildDate>Sun, 25 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zzlyw.github.io/images/icon_hu7030cbd7b1bdfcbfb8eaef0c4227eadf_7648_512x512_fill_lanczos_center_3.png</url>
+      <title>Machine Learning</title>
+      <link>https://zzlyw.github.io/tag/machine-learning/</link>
+    </image>
+    
+    <item>
+      <title>[IROS 2020] Graph-based hierarchical knowledge representation for robot task transfer from virtual to physical world</title>
+      <link>https://zzlyw.github.io/publication/conf_iros20_graph_based_robot_learning/</link>
+      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/publication/conf_iros20_graph_based_robot_learning/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to import publication metadata into your reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[TURC 2019] VRGym: A virtual testbed for physical and interactive AI</title>
+      <link>https://zzlyw.github.io/publication/conf_turc19_vrgym/</link>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/publication/conf_turc19_vrgym/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to import publication metadata into your reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robot Learning Project</title>
+      <link>https://zzlyw.github.io/project/robot-learning-project/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/project/robot-learning-project/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Robot Learning&lt;/em&gt; project is focused on training a robot with VR or MR approaches.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
