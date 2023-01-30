@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Human-Computer Interaction | Zhenliang Zhang | BIGAI</title>
-    <link>https://zzlyw.github.io/tag/human-computer-interaction/</link>
-      <atom:link href="https://zzlyw.github.io/tag/human-computer-interaction/index.xml" rel="self" type="application/rss+xml" />
-    <description>Human-Computer Interaction</description>
+    <title>Text Entry | Zhenliang Zhang | BIGAI</title>
+    <link>https://zzlyw.github.io/tag/text-entry/</link>
+      <atom:link href="https://zzlyw.github.io/tag/text-entry/index.xml" rel="self" type="application/rss+xml" />
+    <description>Text Entry</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022-2023 Zhenliang Zhang </copyright><lastBuildDate>Thu, 11 Jul 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://zzlyw.github.io/images/icon_hu7030cbd7b1bdfcbfb8eaef0c4227eadf_7648_512x512_fill_lanczos_center_3.png</url>
-      <title>Human-Computer Interaction</title>
-      <link>https://zzlyw.github.io/tag/human-computer-interaction/</link>
+      <title>Text Entry</title>
+      <link>https://zzlyw.github.io/tag/text-entry/</link>
     </image>
     
     <item>
@@ -26,10 +26,10 @@
     </item>
     
     <item>
-      <title>[SID 2019] Vision-tangible interactive display method for mixed and virtual reality: Toward the human-centered editable reality</title>
-      <link>https://zzlyw.github.io/publication/journal_sid_editable_reality/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://zzlyw.github.io/publication/journal_sid_editable_reality/</guid>
+      <title>[ISMAR 2018] HiKeyb: High-efficiency mixed reality system for text entry</title>
+      <link>https://zzlyw.github.io/publication/conf_ismar18_hikeyb/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/publication/conf_ismar18_hikeyb/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to import publication metadata into your reference management software.

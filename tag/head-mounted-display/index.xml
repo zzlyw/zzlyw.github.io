@@ -5,12 +5,64 @@
     <link>https://zzlyw.github.io/tag/head-mounted-display/</link>
       <atom:link href="https://zzlyw.github.io/tag/head-mounted-display/index.xml" rel="self" type="application/rss+xml" />
     <description>Head-Mounted Display</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022-2023 Zhenliang Zhang </copyright><lastBuildDate>Tue, 20 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022-2023 Zhenliang Zhang </copyright><lastBuildDate>Sat, 09 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://zzlyw.github.io/images/icon_hu7030cbd7b1bdfcbfb8eaef0c4227eadf_7648_512x512_fill_lanczos_center_3.png</url>
       <title>Head-Mounted Display</title>
       <link>https://zzlyw.github.io/tag/head-mounted-display/</link>
     </image>
+    
+    <item>
+      <title>[IROS 2019] Toward an efficient hybrid interaction paradigm for object manipulation in optical see-through mixed reality</title>
+      <link>https://zzlyw.github.io/publication/conf_iros19_hybrid_hand_interaction/</link>
+      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/publication/conf_iros19_hybrid_hand_interaction/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to import publication metadata into your reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[PhotonicsAsia 2018] Depth-aware interactive display method for vision-tangible mixed reality</title>
+      <link>https://zzlyw.github.io/publication/conf_photonicsasia19_depth_aware/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/publication/conf_photonicsasia19_depth_aware/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to import publication metadata into your reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[SID 2018] Task-driven latent active correction for physics-inspired input method in near-field mixed reality applications</title>
+      <link>https://zzlyw.github.io/publication/journal_sid_lac/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/publication/journal_sid_lac/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to import publication metadata into your reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[Optical Engineering 2018] Enhancing data acquisition for calibration of optical see-through head-mounted displays</title>
+      <link>https://zzlyw.github.io/publication/journal_oe_osthmd/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/publication/journal_oe_osthmd/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to import publication metadata into your reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>[VR 2018] Evaluation of hand-based interaction for near-field mixed reality with optical see-through head-mounted displays</title>

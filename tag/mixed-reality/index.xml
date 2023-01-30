@@ -5,12 +5,25 @@
     <link>https://zzlyw.github.io/tag/mixed-reality/</link>
       <atom:link href="https://zzlyw.github.io/tag/mixed-reality/index.xml" rel="self" type="application/rss+xml" />
     <description>Mixed Reality</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022-2023 Zhenliang Zhang </copyright><lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022-2023 Zhenliang Zhang </copyright><lastBuildDate>Sat, 09 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://zzlyw.github.io/images/icon_hu7030cbd7b1bdfcbfb8eaef0c4227eadf_7648_512x512_fill_lanczos_center_3.png</url>
       <title>Mixed Reality</title>
       <link>https://zzlyw.github.io/tag/mixed-reality/</link>
     </image>
+    
+    <item>
+      <title>[IROS 2019] Toward an efficient hybrid interaction paradigm for object manipulation in optical see-through mixed reality</title>
+      <link>https://zzlyw.github.io/publication/conf_iros19_hybrid_hand_interaction/</link>
+      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/publication/conf_iros19_hybrid_hand_interaction/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to import publication metadata into your reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>[SID 2019] Vision-tangible interactive display method for mixed and virtual reality: Toward the human-centered editable reality</title>
