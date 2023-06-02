@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Motion Synthesis | Zhenliang Zhang | BIGAI</title>
+    <link>https://zzlyw.github.io/tag/motion-synthesis/</link>
+      <atom:link href="https://zzlyw.github.io/tag/motion-synthesis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Motion Synthesis</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zzlyw.github.io/media/icon_hu7030cbd7b1bdfcbfb8eaef0c4227eadf_7648_512x512_fill_lanczos_center_3.png</url>
+      <title>Motion Synthesis</title>
+      <link>https://zzlyw.github.io/tag/motion-synthesis/</link>
+    </image>
+    
+    <item>
+      <title>[Virtual Reality 2023] DexHand: dexterous hand manipulation motion synthesis for virtual reality</title>
+      <link>https://zzlyw.github.io/publication/journal_virtualreality_dexhand/</link>
+      <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/publication/journal_virtualreality_dexhand/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above  to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
