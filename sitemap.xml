@@ -2,11 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zzlyw.github.io/publication/journal_virtualreality_dexhand/</loc>
-    <lastmod>2023-05-30T00:00:00+00:00</lastmod>
+    <loc>https://zzlyw.github.io/publication/conf_vr24_sr/</loc>
+    <lastmod>2024-01-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/publication-type/1/</loc>
+    <lastmod>2024-01-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/publication_types/</loc>
+    <lastmod>2024-01-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/publication/</loc>
+    <lastmod>2024-01-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/tag/symmetrical-reality/</loc>
+    <lastmod>2024-01-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/tags/</loc>
+    <lastmod>2024-01-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/publication/journal_tog_objectr_retrieval/</loc>
+    <lastmod>2023-12-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zzlyw.github.io/publication-type/2/</loc>
+    <lastmod>2023-12-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/tag/human-computer-interaction/</loc>
+    <lastmod>2023-12-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/tag/virtual-reality/</loc>
+    <lastmod>2023-12-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/publication/conf_uist23_neo/</loc>
+    <lastmod>2023-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/tag/human-robot-interaction/</loc>
+    <lastmod>2023-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/publication/journal_engineering_tongtest/</loc>
+    <lastmod>2023-08-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/tag/artificial-general-intelligence/</loc>
+    <lastmod>2023-08-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/publication/journal_virtualreality_dexhand/</loc>
     <lastmod>2023-05-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -18,31 +70,7 @@
     <lastmod>2023-05-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zzlyw.github.io/publication_types/</loc>
-    <lastmod>2023-05-30T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://zzlyw.github.io/publication/</loc>
-    <lastmod>2023-05-30T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://zzlyw.github.io/tags/</loc>
-    <lastmod>2023-05-30T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://zzlyw.github.io/publication/conf_vr23_buinding_sr_system/</loc>
-    <lastmod>2023-03-25T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://zzlyw.github.io/publication-type/1/</loc>
-    <lastmod>2023-03-25T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://zzlyw.github.io/tag/human-robot-interaction/</loc>
-    <lastmod>2023-03-25T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://zzlyw.github.io/tag/symmetrical-reality/</loc>
+    <loc>https://zzlyw.github.io/publication/conf_vr23_building_sr_system/</loc>
     <lastmod>2023-03-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -90,10 +118,6 @@
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zzlyw.github.io/tag/virtual-reality/</loc>
-    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://zzlyw.github.io/publication/conf_iros19_hybrid_hand_interaction/</loc>
     <lastmod>2019-11-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -115,10 +139,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zzlyw.github.io/publication/journal_sensors_hifinger/</loc>
-    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://zzlyw.github.io/tag/human-computer-interaction/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

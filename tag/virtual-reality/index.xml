@@ -5,12 +5,38 @@
     <link>https://zzlyw.github.io/tag/virtual-reality/</link>
       <atom:link href="https://zzlyw.github.io/tag/virtual-reality/index.xml" rel="self" type="application/rss+xml" />
     <description>Virtual Reality</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 15 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://zzlyw.github.io/media/icon_hu7030cbd7b1bdfcbfb8eaef0c4227eadf_7648_512x512_fill_lanczos_center_3.png</url>
       <title>Virtual Reality</title>
       <link>https://zzlyw.github.io/tag/virtual-reality/</link>
     </image>
+    
+    <item>
+      <title>[TOG/SiggraphAsia 2023] Commonsense Knowledge-Driven Joint Reasoning Approach for Object Retrieval in Virtual Reality</title>
+      <link>https://zzlyw.github.io/publication/journal_tog_objectr_retrieval/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/publication/journal_tog_objectr_retrieval/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above  to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[UIST 2023] Neighbor-Environment Observer: An Intelligent Agent for Immersive Working Companionship</title>
+      <link>https://zzlyw.github.io/publication/conf_uist23_neo/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/publication/conf_uist23_neo/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above  to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>[VR 2020] Exploring the differences of visual discomfort caused by long-term immersion between virtual environments and physical environments</title>

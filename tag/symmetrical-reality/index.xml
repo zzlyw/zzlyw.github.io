@@ -5,7 +5,7 @@
     <link>https://zzlyw.github.io/tag/symmetrical-reality/</link>
       <atom:link href="https://zzlyw.github.io/tag/symmetrical-reality/index.xml" rel="self" type="application/rss+xml" />
     <description>Symmetrical Reality</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 25 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 25 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://zzlyw.github.io/media/icon_hu7030cbd7b1bdfcbfb8eaef0c4227eadf_7648_512x512_fill_lanczos_center_3.png</url>
       <title>Symmetrical Reality</title>
@@ -13,10 +13,36 @@
     </image>
     
     <item>
+      <title>[VR 2024] On the Emergence of Symmetrical Reality</title>
+      <link>https://zzlyw.github.io/publication/conf_vr24_sr/</link>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/publication/conf_vr24_sr/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above  to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[UIST 2023] Neighbor-Environment Observer: An Intelligent Agent for Immersive Working Companionship</title>
+      <link>https://zzlyw.github.io/publication/conf_uist23_neo/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/publication/conf_uist23_neo/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above  to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>[VR 2023] Building symmetrical reality systems for cooperative manipulation</title>
-      <link>https://zzlyw.github.io/publication/conf_vr23_buinding_sr_system/</link>
+      <link>https://zzlyw.github.io/publication/conf_vr23_building_sr_system/</link>
       <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://zzlyw.github.io/publication/conf_vr23_buinding_sr_system/</guid>
+      <guid>https://zzlyw.github.io/publication/conf_vr23_building_sr_system/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above  to import publication metadata into their reference management software.
