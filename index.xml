@@ -5,7 +5,7 @@
     <link>https://zzlyw.github.io/</link>
       <atom:link href="https://zzlyw.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Zhenliang Zhang | BIGAI</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://zzlyw.github.io/media/icon_hu7030cbd7b1bdfcbfb8eaef0c4227eadf_7648_512x512_fill_lanczos_center_3.png</url>
       <title>Zhenliang Zhang | BIGAI</title>
@@ -505,14 +505,6 @@
       <guid>https://zzlyw.github.io/project/mr-project/</guid>
       <description>&lt;p&gt;Mixed Reality project is focused on the wearable MR devices, including algorithms, systems, and applications.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://zzlyw.github.io/admin/config.yml</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://zzlyw.github.io/admin/config.yml</guid>
-      <description></description>
     </item>
     
   </channel>
