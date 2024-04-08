@@ -2,19 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zzlyw.github.io/publication/conf_vr24_sr/</loc>
-    <lastmod>2024-01-25T00:00:00+00:00</lastmod>
+    <loc>https://zzlyw.github.io/publication/conf_iclr24_bongardow/</loc>
+    <lastmod>2024-05-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/tag/machine-learning/</loc>
+    <lastmod>2024-05-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zzlyw.github.io/publication-type/paper-conference/</loc>
-    <lastmod>2024-01-25T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zzlyw.github.io/publication_types/</loc>
-    <lastmod>2024-01-25T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zzlyw.github.io/publication/</loc>
+    <lastmod>2024-05-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/tags/</loc>
+    <lastmod>2024-05-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/publication/conf_vr24_sr/</loc>
     <lastmod>2024-01-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -22,11 +34,7 @@
     <lastmod>2024-01-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zzlyw.github.io/tags/</loc>
-    <lastmod>2024-01-25T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://zzlyw.github.io/publication/journal_tog_objectr_retrieval/</loc>
+    <loc>https://zzlyw.github.io/publication/journal_tog_object_retrieval/</loc>
     <lastmod>2023-12-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -90,10 +98,6 @@
     <lastmod>2021-03-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zzlyw.github.io/tag/concept/</loc>
-    <lastmod>2021-03-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://zzlyw.github.io/publication/conf_ismar20_machine_intelligence/</loc>
     <lastmod>2020-11-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -103,10 +107,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zzlyw.github.io/publication/conf_iros20_graph_based_robot_learning/</loc>
-    <lastmod>2020-10-25T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://zzlyw.github.io/tag/machine-learning/</loc>
     <lastmod>2020-10-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

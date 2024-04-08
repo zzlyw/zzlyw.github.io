@@ -5,12 +5,25 @@
     <link>https://zzlyw.github.io/tag/machine-learning/</link>
       <atom:link href="https://zzlyw.github.io/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Machine Learning</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 25 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 07 May 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://zzlyw.github.io/media/icon_hu7030cbd7b1bdfcbfb8eaef0c4227eadf_7648_512x512_fill_lanczos_center_3.png</url>
       <title>Machine Learning</title>
       <link>https://zzlyw.github.io/tag/machine-learning/</link>
     </image>
+    
+    <item>
+      <title>[ICLR 2024] Bongard-OpenWorld: Few-Shot Reasoning for Free-form Visual Concepts in the Real World</title>
+      <link>https://zzlyw.github.io/publication/conf_iclr24_bongardow/</link>
+      <pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/publication/conf_iclr24_bongardow/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above  to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>[IROS 2020] Graph-based hierarchical knowledge representation for robot task transfer from virtual to physical world</title>
