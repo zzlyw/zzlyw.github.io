@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Demonstrative Learning | Zhenliang Zhang | BIGAI</title>
+    <link>https://zzlyw.github.io/tag/demonstrative-learning/</link>
+      <atom:link href="https://zzlyw.github.io/tag/demonstrative-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Demonstrative Learning</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zzlyw.github.io/media/icon_hu7030cbd7b1bdfcbfb8eaef0c4227eadf_7648_512x512_fill_lanczos_center_3.png</url>
+      <title>Demonstrative Learning</title>
+      <link>https://zzlyw.github.io/tag/demonstrative-learning/</link>
+    </image>
+    
+    <item>
+      <title>[TOMM 2024] Demonstrative Learning for Human-Agent Knowledge Transfer</title>
+      <link>https://zzlyw.github.io/publication/journal_tomm_demolearing/</link>
+      <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/publication/journal_tomm_demolearing/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above  to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
