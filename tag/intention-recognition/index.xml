@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intention Recognition | Zhenliang Zhang | BIGAI</title>
+    <link>https://zzlyw.github.io/tag/intention-recognition/</link>
+      <atom:link href="https://zzlyw.github.io/tag/intention-recognition/index.xml" rel="self" type="application/rss+xml" />
+    <description>Intention Recognition</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zzlyw.github.io/media/icon_hu7030cbd7b1bdfcbfb8eaef0c4227eadf_7648_512x512_fill_lanczos_center_3.png</url>
+      <title>Intention Recognition</title>
+      <link>https://zzlyw.github.io/tag/intention-recognition/</link>
+    </image>
+    
+    <item>
+      <title>[Neurocomputing 2026] A Low-Burden Attention Network Based on Asynchronous Mechanism for BCI Motor Intention Recognition</title>
+      <link>https://zzlyw.github.io/publication/journal_neurocomputing_bci/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/publication/journal_neurocomputing_bci/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above  to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

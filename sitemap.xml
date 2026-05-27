@@ -2,11 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zzlyw.github.io/publication/journal_tomm_demolearing/</loc>
-    <lastmod>2024-12-26T00:00:00+00:00</lastmod>
+    <loc>https://zzlyw.github.io/publication/conf_iclr26_dpi/</loc>
+    <lastmod>2026-04-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/publication-type/paper-conference/</loc>
+    <lastmod>2026-04-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/publication_types/</loc>
+    <lastmod>2026-04-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/publication/</loc>
+    <lastmod>2026-04-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/tags/</loc>
+    <lastmod>2026-04-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/tag/value-system/</loc>
+    <lastmod>2026-04-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/publication/journal_neurocomputing_bci/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zzlyw.github.io/publication-type/article-journal/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/tag/human-computer-interaction/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/tag/intention-recognition/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/publication/journal_ral_akm/</loc>
+    <lastmod>2026-01-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/tag/manipulation/</loc>
+    <lastmod>2026-01-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/tag/robot/</loc>
+    <lastmod>2026-01-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/publication/conf_aaai26_entropy/</loc>
+    <lastmod>2026-01-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/tag/large-language-model/</loc>
+    <lastmod>2026-01-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/publication/conf_neurips25_value_pilot/</loc>
+    <lastmod>2025-12-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/publication/conf_emnlp_domain-training/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/publication/journal_sciencechina_ability/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/tag/artificial-intelligence/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/tag/evaluation/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zzlyw.github.io/publication/journal_tomm_demolearing/</loc>
     <lastmod>2024-12-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -18,23 +94,7 @@
     <lastmod>2024-12-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zzlyw.github.io/publication_types/</loc>
-    <lastmod>2024-12-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://zzlyw.github.io/publication/</loc>
-    <lastmod>2024-12-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://zzlyw.github.io/tags/</loc>
-    <lastmod>2024-12-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://zzlyw.github.io/publication/conf_mm24_sceneagent/</loc>
-    <lastmod>2024-10-28T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://zzlyw.github.io/publication-type/paper-conference/</loc>
     <lastmod>2024-10-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -55,10 +115,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zzlyw.github.io/publication/journal_tog_object_retrieval/</loc>
-    <lastmod>2023-12-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://zzlyw.github.io/tag/human-computer-interaction/</loc>
     <lastmod>2023-12-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

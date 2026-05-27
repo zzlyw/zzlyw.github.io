@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Large Language Model | Zhenliang Zhang | BIGAI</title>
+    <link>https://zzlyw.github.io/tag/large-language-model/</link>
+      <atom:link href="https://zzlyw.github.io/tag/large-language-model/index.xml" rel="self" type="application/rss+xml" />
+    <description>Large Language Model</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 20 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zzlyw.github.io/media/icon_hu7030cbd7b1bdfcbfb8eaef0c4227eadf_7648_512x512_fill_lanczos_center_3.png</url>
+      <title>Large Language Model</title>
+      <link>https://zzlyw.github.io/tag/large-language-model/</link>
+    </image>
+    
+    <item>
+      <title>[AAAI 2026] Reasoning with Exploration: An Entropy Perspective</title>
+      <link>https://zzlyw.github.io/publication/conf_aaai26_entropy/</link>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/publication/conf_aaai26_entropy/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above  to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[NeurIPS 2025 Workshop] ValuePilot: A Two-Phase Framework for Value-Driven Decision-Making</title>
+      <link>https://zzlyw.github.io/publication/conf_neurips25_value_pilot/</link>
+      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/publication/conf_neurips25_value_pilot/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above  to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[EMNLP 2025] On Domain-Adaptive Post-Training for Multimodal Large Language Models</title>
+      <link>https://zzlyw.github.io/publication/conf_emnlp_domain-training/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/publication/conf_emnlp_domain-training/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above  to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
