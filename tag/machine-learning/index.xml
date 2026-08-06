@@ -51,14 +51,5 @@
 </description>
     </item>
     
-    <item>
-      <title>Robot Learning Project</title>
-      <link>https://zzlyw.github.io/project/robot-learning-project/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://zzlyw.github.io/project/robot-learning-project/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Robot Learning&lt;/em&gt; project is focused on training a robot with VR or MR approaches.&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>

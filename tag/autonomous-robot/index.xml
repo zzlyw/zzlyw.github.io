@@ -5,7 +5,7 @@
     <link>https://zzlyw.github.io/tag/autonomous-robot/</link>
       <atom:link href="https://zzlyw.github.io/tag/autonomous-robot/index.xml" rel="self" type="application/rss+xml" />
     <description>Autonomous Robot</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://zzlyw.github.io/media/icon_hu7030cbd7b1bdfcbfb8eaef0c4227eadf_7648_512x512_fill_lanczos_center_3.png</url>
       <title>Autonomous Robot</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>[Engineering 2023] A reconfigurable data glove for reconstructing physical and virtual grasps</title>
-      <link>https://zzlyw.github.io/publication/journal_engineering_grasp/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://zzlyw.github.io/publication/journal_engineering_grasp/</guid>
+      <title>[Engineering][2024] A reconfigurable data glove for reconstructing physical and virtual grasps</title>
+      <link>https://zzlyw.github.io/publication/journal_2024_engineering_grasp/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://zzlyw.github.io/publication/journal_2024_engineering_grasp/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above  to import publication metadata into their reference management software.
@@ -74,15 +74,6 @@
     Click the &lt;em&gt;Cite&lt;/em&gt; button above  to import publication metadata into their reference management software.
   &lt;/div&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Robot Learning Project</title>
-      <link>https://zzlyw.github.io/project/robot-learning-project/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://zzlyw.github.io/project/robot-learning-project/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Robot Learning&lt;/em&gt; project is focused on training a robot with VR or MR approaches.&lt;/p&gt;
 </description>
     </item>
     
